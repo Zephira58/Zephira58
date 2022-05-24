@@ -139,6 +139,10 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/Affirmation-Requester',"color2", 80);
       newTab(AffirmationRequester);
       break;
+    case "discord":
+      addLine('Opening https://discord.com/',"color2", 80);
+      newTab(discord);
+      break;
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
