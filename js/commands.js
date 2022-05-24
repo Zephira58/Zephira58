@@ -12,6 +12,7 @@ var CCTweakedScripts = "https://github.com/Xanthus58/CC-Tweaked-Scripts";
 var CLIAdventureGame = "https://github.com/Xanthus58/CLI-Adventure-Game";
 var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI";
 var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
+var discord = "https://discord.com/";
 
 whois = [
   "<br>",
@@ -52,6 +53,7 @@ social = [
   'instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",
   'email         <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
+  'discord         <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
   "<br>"
 ];
 
