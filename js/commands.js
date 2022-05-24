@@ -90,6 +90,7 @@ help = [
 ];
 
 banner = [
+" Xanthus58 ©2022 xanthus58.github.io/Xanthus58/ All rights reserved",
 "  #     #                                        ",
 "  #   #    ##   #    # ##### #    # #    #  #### ",
 "   # #    #  #  ##   #   #   #    # #    # #     ",
