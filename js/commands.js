@@ -82,12 +82,20 @@ help = [
   '<span class="command">whois</span>          Who is Xanthus?',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">projects</span>       View coding projects',
+  '<span class="command">api</span>            View/Use my api endpoints',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Displays the list you are currently viewing',
   '<span class="command">clear</span>          Clears the terminal',
   '<span class="command">banner</span>         Display the header',
   "<br>",
 ];
+
+api = [
+  "<br>",
+  "<span class=\"command\">Currently A WIP check back soon</span><span class=\"color2\">.</span>",
+  "<br>",
+]
+
 
 banner = [
 " Xanthus58 ©2022 xanthus58.github.io/Xanthus58/ All rights reserved",
