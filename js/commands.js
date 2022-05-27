@@ -13,6 +13,7 @@ var CLIAdventureGame = "https://github.com/Xanthus58/CLI-Adventure-Game";
 var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI";
 var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
 var discord = "https://discord.com/";
+var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
 
 whois = [
   "<br>",
@@ -49,11 +50,11 @@ whois = [
 social = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\">.</span>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",
-  'email         <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
-  'discord         <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
+  'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
+  'Instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
+  'Github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",
+  'Email          <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
+  'Discord        <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
   "<br>"
 ];
 
@@ -61,19 +62,20 @@ projects = [
   "<br>",
   "<span class=\"command\">Type the name of any project to navigate there</span><span class=\"color2\">.</span>",
   "<span class=\"command\">-Utility-</span><span class=\"color2\">.</span>",
-  "> Malacyte | A multipurpose discord bot with 100+ features",
-  "> NetworkPoolCalculatorReforged | A crypto mining profitibilty CLI tool",
+  "> Malacyte                      │ A multipurpose discord bot with 100+ features",
+  "> NetworkPoolCalculatorReforged │ A crypto mining profitibilty CLI tool",
   ".",
-  "<span class=\"command\">-Games-</span><span class=\"color2\">.</span>",
-  "> VanillaRenewed | A minecraft vanilla+ texture pack",
-  "> StillAliveReforged | A recreation of the 'Still Alive' song from portal",
-  "> ValorantRandomizer | A small CLI randomizer for the game 'Valorant'",
-  "> CCTweakedScripts | A collection of lua scripts for use in the minecraft mod 'Computer Craft'",
-  "> CLIAdventureGame | A very small terminal escape the room game",
-  "> RockPaperScissorsCLI | A small rock paper scissors game for the terminal",
+  "<span class=\"command\">-Game Stuff-</span><span class=\"color2\">.</span>",
+  "> VanillaRenewed       │ A minecraft vanilla+ texture pack",
+  "> StillAliveReforged   │ A recreation of the 'Still Alive' song from portal",
+  "> ValorantRandomizer   │ A small CLI randomizer for the game 'Valorant'",
+  "> CCTweakedScripts     │ A collection of lua scripts for use in the minecraft mod 'Computer Craft'",
+  "> CLIAdventureGame     │ A very small terminal escape the room game",
+  "> RockPaperScissorsCLI │ A small rock paper scissors game for the terminal",
+  "> StanlysTerminal      │ A recreation of the terminal that stanley uses for his job in the game The Stanley Parable",
   ".",
   "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\">.</span>",
-  "> AffirmationRequester | Small API handeler that can generate motivation quotes. Has ai intergration",
+  "> AffirmationRequester │ Small API handeler that can generate motivation quotes. Has ai intergration",
   "<br>"
 ];
 
@@ -87,6 +89,7 @@ help = [
   '<span class="command">help</span>           Displays the list you are currently viewing',
   '<span class="command">clear</span>          Clears the terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">exit</span>           Closes this website',
   "<br>",
 ];
 

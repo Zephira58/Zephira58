@@ -142,6 +142,10 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/Affirmation-Requester',"color2", 80);
       newTab(AffirmationRequester);
       break;
+    case "stanlysterminal":
+      addLine('Opening https://github.com/Xanthus58/Stanlys_Terminal',"color2", 80);
+      newTab(StanlysTerminal);
+      break
     case "discord":
       addLine('Opening https://discord.com/',"color2", 80);
       newTab(discord);
@@ -158,6 +162,9 @@ function commander(cmd) {
       before = document.getElementById("before");
     }, 1);
     break;
+    case "exit":
+      window.close();
+      break
     case "banner":
       loopLines(banner, "", 80);
       break;
