@@ -47,7 +47,7 @@ whois = [
 ];
 
 
-social = [
+contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\">.</span>",
   'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
@@ -82,7 +82,7 @@ projects = [
 help = [
   "<br>",
   '<span class="command">whois</span>          Who is Xanthus?',
-  '<span class="command">social</span>         Display social networks',
+  '<span class="command">contact</span>         Display social networks',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">api</span>            View/Use my api endpoints',
   '<span class="command">history</span>        View command history',

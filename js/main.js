@@ -88,8 +88,8 @@ function commander(cmd) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
+    case "contact":
+      loopLines(contact, "color2 margin", 80);
       break;
     case "projects":
       loopLines(projects, "color2 margin", 80);
@@ -162,9 +162,6 @@ function commander(cmd) {
       before = document.getElementById("before");
     }, 1);
     break;
-    case "exit":
-      window.close();
-      break
     case "banner":
       loopLines(banner, "", 80);
       break;
