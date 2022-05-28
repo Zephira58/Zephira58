@@ -28,23 +28,6 @@ function enterKey(e) {
     let et = "*";
     let w = textarea.value.length;
     command.innerHTML = et.repeat(w);
-    if (textarea.value === password) {
-      pwd = true;
-    }
-    if (pwd && e.keyCode == 13) {
-      loopLines(secret, "color2 margin", 120);
-      command.innerHTML = "";
-      textarea.value = "";
-      pwd = false;
-      pw = false;
-      liner.classList.remove("password");
-    } else if (e.keyCode == 13) {
-      addLine("Wrong password", "error", 0);
-      command.innerHTML = "";
-      textarea.value = "";
-      pw = false;
-      liner.classList.remove("password");
-    }
   } else {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
@@ -76,17 +59,8 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "api":
-      loopLines(api, "color2 margin", 80);
-      break;
     case "whois":
       loopLines(whois, "color2 margin", 80);
-      break;
-    case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
       break;
     case "contact":
       loopLines(contact, "color2 margin", 80);
@@ -94,17 +68,10 @@ function commander(cmd) {
     case "projects":
       loopLines(projects, "color2 margin", 80);
       break;
-    case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
-      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
-      break;
-    case "email":
-      addLine('Opening mailto:<a href="mailto:xanthus58@protonmail.com">xanthus58@protonmail.com</a>...', "color2", 80);
-      newTab(email);
       break;
     case "vanillarenewed":
       addLine('Opening https://github.com/Xanthus58/Vanilla-Renewed/tree/Experimental',"color2", 80);
@@ -146,21 +113,19 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/Stanlys_Terminal',"color2", 80);
       newTab(StanlysTerminal);
       break
-    case "discord":
-      addLine('Opening https://discord.com/',"color2", 80);
-      newTab(discord);
-      break;
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
+      loopLines(banner, "", 80);
       break;
     case "cls":
     setTimeout(function() {
       terminal.innerHTML = '<a id="before"></a>';
       before = document.getElementById("before");
     }, 1);
+    loopLines(banner, "", 80);
     break;
     case "banner":
       loopLines(banner, "", 80);
@@ -178,8 +143,16 @@ function commander(cmd) {
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
+    case "email":
+      addLine('Opening Email', "color2", 0);
+      newTab(email);
+      break;
+    case "discord":
+      addLine('Opening Discord',"color2", 0);
+      newTab(discord);
+      break;
     default:
-      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
+      addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
       break;
   }
 }

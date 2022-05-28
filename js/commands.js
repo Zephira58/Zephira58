@@ -12,7 +12,7 @@ var CCTweakedScripts = "https://github.com/Xanthus58/CC-Tweaked-Scripts";
 var CLIAdventureGame = "https://github.com/Xanthus58/CLI-Adventure-Game";
 var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI";
 var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
-var discord = "https://discord.com/";
+var discord = "https://discord.com/channels/@me";
 var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
 
 whois = [
@@ -21,7 +21,7 @@ whois = [
   ".",
   "<span class=\"command\">-About Me-</span><span class=\"color2\">.</span>",
   "I'm a Computer Enthusiast",
-  "Currently self teaching with online resources",
+  "Currently self teaching with the help of online resources",
   "Currently learning and growing my skillset in desktop development.",
   "Server operator and maintainer in my spare time.",
   "I like to expand my knowledge and explore new technologies.",
@@ -60,55 +60,45 @@ contact = [
 
 projects = [
   "<br>",
-  "<span class=\"command\">Type the name of any project to navigate there</span><span class=\"color2\">.</span>",
-  "<span class=\"command\">-Utility-</span><span class=\"color2\">.</span>",
-  "> Malacyte                      │ A multipurpose discord bot with 100+ features",
-  "> NetworkPoolCalculatorReforged │ A crypto mining profitibilty CLI tool",
+  "<span class=\"command\">Type the name or click on any project to navigate there</span><span class=\"color2\">.</span>",
+  "<span class=\"command\">-Utility-</span><span class=\"color2\"></span>",
+  '<a href="' + malacyte + '" target="_blank">> Malacyte                      │ A multipurpose discord bot with 100+ features' + "</a>",
+  '<a href="' + NetworkPoolCalculatorReforged + '" target="_blank">> NetworkPoolCalculatorReforged │ A crypto mining profitibilty CLI tool' + "</a>",
   ".",
-  "<span class=\"command\">-Game Stuff-</span><span class=\"color2\">.</span>",
-  "> VanillaRenewed       │ A minecraft vanilla+ texture pack",
-  "> StillAliveReforged   │ A recreation of the 'Still Alive' song from portal",
-  "> ValorantRandomizer   │ A small CLI randomizer for the game 'Valorant'",
-  "> CCTweakedScripts     │ A collection of lua scripts for use in the minecraft mod 'Computer Craft'",
-  "> CLIAdventureGame     │ A very small terminal escape the room game",
-  "> RockPaperScissorsCLI │ A small rock paper scissors game for the terminal",
-  "> StanlysTerminal      │ A recreation of the terminal that stanley uses for his job in the game The Stanley Parable",
+  "<span class=\"command\">-Game Stuff-</span><span class=\"color2\"></span>",
+  '<a href="' + VanillaRenewed + '" target="_blank">> VanillaRenewed       │ A minecraft vanilla+ texture pack' + "</a>",
+  '<a href="' + StillAliveReforged + '" target="_blank">> StillAliveReforged   │ A recreation of the "Still Alive" song from portal' + "</a>",
+  '<a href="' + ValorantRandomizer + '" target="_blank">> ValorantRandomizer   │ A small CLI randomizer for the game "Valorant"' + "</a>",
+  '<a href="' + CCTweakedScripts + '" target="_blank">> CCTweakedScripts     │ A collection of lua scripts for use in the minecraft mod "Computer Craft"' + "</a>",
+  '<a href="' + CLIAdventureGame + '" target="_blank> CLIAdventureGame     │ A very small terminal escape the room game' + "</a>",
+  '<a href="' + RockPaperScissorsCLI + '" target="_blank">> RockPaperScissorsCLI │ A small rock paper scissors game for the terminal' + "</a>",
+  '<a href="' + StanlysTerminal + '" target="_blank">> StanlysTerminal      │ A recreation of the terminal that stanley uses for his job in the game "The Stanley Parable"' + "</a>",
   ".",
-  "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\">.</span>",
-  "> AffirmationRequester │ Small API handeler that can generate motivation quotes. Has ai intergration",
+  "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\"></span>",
+  '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester │ Small API handeler that can generate motivation quotes. Has ai intergration' + "</a>",
   "<br>"
 ];
 
 help = [
   "<br>",
   '<span class="command">whois</span>          Who is Xanthus?',
-  '<span class="command">contact</span>         Display social networks',
+  '<span class="command">contact</span>        Display social networks',
   '<span class="command">projects</span>       View coding projects',
-  '<span class="command">api</span>            View/Use my api endpoints',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Displays the list you are currently viewing',
   '<span class="command">clear</span>          Clears the terminal',
   '<span class="command">banner</span>         Display the header',
-  '<span class="command">exit</span>           Closes this website',
   "<br>",
 ];
 
-api = [
-  "<br>",
-  "<span class=\"command\">Currently A WIP check back soon</span><span class=\"color2\">.</span>",
-  "<br>",
-]
-
-
 banner = [
-" Xanthus58 ©2022 xanthus58.github.io/Xanthus58/ All rights reserved",
-"  #     #                                        ",
-"  #   #    ##   #    # ##### #    # #    #  #### ",
-"   # #    #  #  ##   #   #   #    # #    # #     ",
-"    #    #    # # #  #   #   ###### #    #  #### ",
-"   # #   ###### #  # #   #   #    # #    #      #",
-"  #   #  #    # #   ##   #   #    # #    # #    #",
-" #     # #    # #    #   #   #    #  ####   #### ",
-  '<span class="color2">Welcome to my interactive web terminal.</span>',
-  "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">help</span><span class=\"color2\">.</span>",
+"  ##     ##    ###    ##    ## ######## ##     ## ##     ##  ######        ##       ## ##    ",
+"   ##   ##    ## ##   ###   ##    ##    ##     ## ##     ## ##    ##      ##       ##   ##   ",
+"    ## ##    ##   ##  ####  ##    ##    ##     ## ##     ## ##           ##       ##     ##  ",
+"     ###    ##     ## ## ## ##    ##    ######### ##     ##  ######     ##       ##       ## ",
+"    ## ##   ######### ##  ####    ##    ##     ## ##     ##       ##     ##     ##       ##  ",
+"   ##   ##  ##     ## ##   ###    ##    ##     ## ##     ## ##    ##      ##   ##       ##   ",
+"  ##     ## ##     ## ##    ##    ##    ##     ##  #######   ######        ## ##       ##    ",
+"Xanthus58 ©2022 xanthus58.github.io/Xanthus58/ All rights reserved",
+'<span class="color2">Welcome to my terminal. Theme inspired by GitHub</span>',
 ];
