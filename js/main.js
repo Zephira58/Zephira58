@@ -134,9 +134,6 @@ function commander(cmd) {
     }, 1);
     loopLines(banner, "", 80);
     break;
-    case "banner":
-      loopLines(banner, "", 80);
-      break;
     // socials
     case "twitter":
       addLine("Opening Twitter...", "color2", 0);

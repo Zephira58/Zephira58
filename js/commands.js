@@ -87,7 +87,6 @@ help = [
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Displays the list you are currently viewing',
   '<span class="command">clear</span>          Clears the terminal',
-  '<span class="command">banner</span>         Display the header',
   "<br>",
 ];
 
