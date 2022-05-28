@@ -9,8 +9,15 @@ var pw = false;
 let pwd = false;
 var commands = [];
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+addLine('-Commands-',"command",185)
+loopLines(help, "color2 margin", 186);
+
 setTimeout(function() {
-  loopLines(banner, "", 80);
+  loopLines(banner, "", 10);
   textarea.focus();
 }, 100);
 
