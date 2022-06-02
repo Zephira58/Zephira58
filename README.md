@@ -1,6 +1,6 @@
 <div align="center">
   <h2> 
-    Hi, there! I am Xanthus <img src="https://github.com/kogisin/kogisin/blob/main/gifs/hi.gif" width="30px">
+    Hi, there! I am Xanthus <img src="https://github.com/kogisin/kogisin/blob/main/gifs/hi.gif" width="5px">
   </h2>
 </div>
 
