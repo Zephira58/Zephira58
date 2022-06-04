@@ -51,7 +51,7 @@ whois = [
 contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\">.</span>",
-  'Portosarus        <a href="' + portosaurus + '" target="_blank">portosaurus.github.io/Xanthus58/' + '</a>',
+  'Portosaurus    <a href="' + portosaurus + '" target="_blank">portosaurus.github.io/Xanthus58' + '</a>',
   'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
   'Instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
   'Github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",
