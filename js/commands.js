@@ -14,6 +14,7 @@ var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI
 var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
 var discord = "https://discord.com/channels/@me";
 var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
+var portosaurus = "https://portosaurus.github.io/Xanthus58/";
 
 whois = [
   "<br>",
@@ -50,6 +51,7 @@ whois = [
 contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\">.</span>",
+  'Portosarus        <a href="' + portosaurus + '" target="_blank">portosaurus.github.io/Xanthus58/' + '</a>',
   'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
   'Instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
   'Github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",

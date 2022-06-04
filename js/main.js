@@ -155,6 +155,10 @@ function commander(cmd) {
       addLine('Opening Discord',"color2", 0);
       newTab(discord);
       break;
+    case "portosaurus":
+      addLine("Opening Portosaurus...", "color2", 0);
+      newTab(portosaurus);
+      break;
     default:
       addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
       break;
