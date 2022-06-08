@@ -120,6 +120,14 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/Stanlys_Terminal',"color2", 80);
       newTab(StanlysTerminal);
       break
+    case "automaticfilesorter":
+      addLine('Opening https://github.com/Xanthus58/automatic_file_sorter',"color2", 80);
+      newTab(automatic_file_sorter);
+      break
+    case "directorylister":
+      addLine('Opening https://github.com/Xanthus58/directory_lister',"color2", 80);
+      newTab(directory_lister);
+      break
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';

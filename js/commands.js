@@ -15,7 +15,8 @@ var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
 var discord = "https://discord.com/channels/@me";
 var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
 var portosaurus = "https://portosaurus.github.io/Xanthus58/";
-
+var automatic_file_sorter = "https://github.com/Xanthus58/automatic_file_sorter";
+var directory_lister = "https://github.com/Xanthus58/directory_lister";
 whois = [
   "<br>",
   "Hi, there! I am Xanthus👋",
@@ -65,6 +66,8 @@ projects = [
   "<span class=\"command\">Type the name or click on any project to navigate there</span><span class=\"color2\">.</span>",
   "<span class=\"command\">-Utility-</span><span class=\"color2\"></span>",
   '<a href="' + malacyte + '" target="_blank">> Malacyte                      │ A multipurpose discord bot with 100+ features' + "</a>",
+  '<a href="' + automatic_file_sorter + '" target="_blank">> AutomaticFileSorter           │ A simple automatic file sorter' + "</a>",
+  '<a href="' + directory_lister + '" target="_blank">> DirectoryLister               │ A program that will list all of the files in the current directory' + "</a>",
   '<a href="' + NetworkPoolCalculatorReforged + '" target="_blank">> NetworkPoolCalculatorReforged │ A crypto mining profitibilty CLI tool' + "</a>",
   ".",
   "<span class=\"command\">-Game Stuff-</span><span class=\"color2\"></span>",
