@@ -128,6 +128,10 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/directory_lister',"color2", 80);
       newTab(directory_lister);
       break
+    case "guessthenumber":
+      addLine('Opening https://github.com/Xanthus58/guess_the_number',"color2", 80);
+      newTab(guess_the_number)
+      break
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';

@@ -17,6 +17,8 @@ var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
 var portosaurus = "https://portosaurus.github.io/Xanthus58/";
 var automatic_file_sorter = "https://github.com/Xanthus58/automatic_file_sorter";
 var directory_lister = "https://github.com/Xanthus58/directory_lister";
+var guess_the_number ="https://github.com/Xanthus58/guess_the_number"
+
 whois = [
   "<br>",
   "Hi, there! I am Xanthus👋",
@@ -81,6 +83,7 @@ projects = [
   ".",
   "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester │ Small API handeler that can generate motivation quotes. Has ai intergration' + "</a>",
+  '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber │ A simple guess the number program, mostly written by githubs co-pilot to test its features.' + "</a>",
   "<br>"
 ];
 
