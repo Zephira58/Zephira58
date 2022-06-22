@@ -83,7 +83,7 @@ projects = [
   ".",
   "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester │ Small API handeler that can generate motivation quotes. Has ai intergration' + "</a>",
-  '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber │ A simple guess the number program, mostly written by githubs co-pilot to test its features.' + "</a>",
+  '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber       │ A simple guess the number program, mostly written by githubs co-pilot to test its features.' + "</a>",
   "<br>"
 ];
 
