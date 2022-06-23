@@ -80,10 +80,10 @@ projects = [
   '<a href="' + CLIAdventureGame + '" target="_blank> CLIAdventureGame     │ A very small terminal escape the room game' + "</a>",
   '<a href="' + RockPaperScissorsCLI + '" target="_blank">> RockPaperScissorsCLI │ A small rock paper scissors game for the terminal' + "</a>",
   '<a href="' + StanlysTerminal + '" target="_blank">> StanlysTerminal      │ A recreation of the terminal that stanley uses for his job in the game "The Stanley Parable"' + "</a>",
+  '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber       │ A simple guess the number program, mostly written by githubs co-pilot to test its features.' + "</a>",
   ".",
   "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester │ Small API handeler that can generate motivation quotes. Has ai intergration' + "</a>",
-  '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber       │ A simple guess the number program, mostly written by githubs co-pilot to test its features.' + "</a>",
   "<br>"
 ];
 
