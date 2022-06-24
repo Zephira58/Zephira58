@@ -4,7 +4,7 @@ body {
   min-height: 99%;
   width: 100%;
   min-width: 550px;
-  color: #7fcbff;
+  color: #c9d1d2;
   background: #0d1117;
   font-family: cursor, monospace;
   overflow-x: hidden;
@@ -60,7 +60,7 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #7fcbff;
+  color: #c9d1d2;
   content: "visitor@xanthus58.com:~$";
 }
 #liner.password::before {
@@ -117,7 +117,7 @@ p {
 }
 .inherit,
 a {
-  color: #ff9f4e;
+  color: #7fcbff;
 }
 a {
   text-decoration: inherit;
