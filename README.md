@@ -36,8 +36,8 @@ Technologies that I've been learning and picked up along my programming journey.
 
 #### 🌐  Languages : <br />
 
-![Python](http://img.shields.io/badge/-Python-05122A?style=flat-square&logo=python&logoColor=F7B500)
 ![Rust](https://img.shields.io/badge/-Rust-05122A?style=flat-square&logo=rust)
+![Python](http://img.shields.io/badge/-Python-05122A?style=flat-square&logo=python&logoColor=F7B500)
 ![Lua](https://img.shields.io/badge/-Lua-05122A?style=flat-square&logo=lua)
 #### 🛠 OS & IDE & Tools <br />
 
