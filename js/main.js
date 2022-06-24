@@ -17,7 +17,7 @@ addLine('-Commands-',"command",185)
 loopLines(help, "color2 margin", 186);
 
 setTimeout(function() {
-  loopLines(banner, "", 10);
+  loopLines(banner, "", 1);
   textarea.focus();
 }, 100);
 
@@ -130,7 +130,11 @@ function commander(cmd) {
       break
     case "guessthenumber":
       addLine('Opening https://github.com/Xanthus58/guess_the_number',"color2", 80);
-      newTab(guess_the_number)
+      newTab(guess_the_number);
+      break
+    case "robuxcalculator":
+      addLine('Opening https://github.com/Xanthus58/robux_calculato',"color2", 80);
+      newTab(robux_calculator);
       break
     case "clear":
       setTimeout(function() {
