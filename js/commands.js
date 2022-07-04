@@ -19,6 +19,7 @@ var automatic_file_sorter = "https://github.com/Xanthus58/automatic_file_sorter"
 var directory_lister = "https://github.com/Xanthus58/directory_lister";
 var guess_the_number = "https://github.com/Xanthus58/guess_the_number";
 var robux_calculator = "https://github.com/Xanthus58/robux_calculator";
+var supsafkrunner = "https://github.com/Xanthus58/sups_afk_runner";
 
 whois = [
   "<br>",
@@ -83,6 +84,7 @@ projects = [
   '<a href="' + StanlysTerminal + '" target="_blank">> StanlysTerminal</a>      │ A recreation of the terminal that stanley uses for his job in the game "The Stanley Parable"',
   '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber</a>       │ A simple guess the number program, mostly written by githubs co-pilot to test its features.',
   '<a href="' + robux_calculator + '" target="_blank">> RobuxCalculator</a>      │ A CLI program that automaticly converts robloxes currency(robux) to AUD/USD',
+  '<a href="' + supsafkrunner + '" target="_blank">> SupsAfkRunner</a>        │ An AFK karma grinder for the SUP gmod server',
   ".",
   "<span class=\"command\">-Miscellaneous-</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester</a> │ Small API handeler that can generate motivation quotes. Has ai intergration',

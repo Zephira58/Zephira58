@@ -136,6 +136,10 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/robux_calculato',"color2", 80);
       newTab(robux_calculator);
       break
+    case "supsafkrunner":
+      addLine('Opening https://github.com/Xanthus58/sups_afk_runner', "color2", 80);
+      newTab(supsafkrunner);
+      break
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
