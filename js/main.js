@@ -64,10 +64,10 @@ function enterKey(e) {
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
     case "awards":
-      loopLines(awards, "color2 margin", 186);
+      loopLines(awards, "color2 margin", 80);
       break;
     case "experience":
-      loopLines(experience, "color2 margin", 186);
+      loopLines(experience, "color2 margin", 80);
       break;
     case "help":
       loopLines(help, "color2 margin", 80);
@@ -193,7 +193,7 @@ function commander(cmd) {
     case "discord":
       addLine('Opening Discord',"color2", 0);
       newTab(discord);
-      break;
+      break;c
     default:
       addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
       break;
