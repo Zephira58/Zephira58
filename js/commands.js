@@ -1,8 +1,12 @@
+//Socials
 var twitter = "https://twitter.com/Xanthus5862";
-var password = "XansCool";
 var instagram = "https://www.instagram.com/xanthus58/";
 var github = "https://github.com/Xanthus58";
 var email = 'mailto:xanthus58@protonmail.com';
+var matrix = "https://matrix.org/clients/";
+var discord = "https://discord.gg/9V5DFkvY";
+
+//Projects
 var VanillaRenewed = "https://github.com/Xanthus58/Vanilla-Renewed/tree/Experimental";
 var NetworkPoolCalculatorReforged = "https://github.com/Xanthus58/NetworkPoolCalculatorReforged";
 var StillAliveReforged = "https://github.com/Xanthus58/StillAliveReforged";
@@ -12,14 +16,20 @@ var CCTweakedScripts = "https://github.com/Xanthus58/CC-Tweaked-Scripts";
 var CLIAdventureGame = "https://github.com/Xanthus58/CLI-Adventure-Game";
 var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI";
 var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
-var discord = "https://discord.gg/9V5DFkvY";
 var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
-var portosaurus = "https://portosaurus.github.io/Xanthus58/";
 var automatic_file_sorter = "https://github.com/Xanthus58/automatic_file_sorter";
 var directory_lister = "https://github.com/Xanthus58/directory_lister";
 var guess_the_number = "https://github.com/Xanthus58/guess_the_number";
 var robux_calculator = "https://github.com/Xanthus58/robux_calculator";
 var supsafkrunner = "https://github.com/Xanthus58/sups_afk_runner";
+
+//Experience
+var winget = "https://github.com/microsoft/winget-pkgs";
+var fiverr = "https://www.fiverr.com";
+
+//Awards
+var AHCCHM304 = "https://training.gov.au/Training/Details/AHCCHM304";
+var AHCCHM307  = "https://training.gov.au/Training/Details/AHCCHM307";
 
 whois = [
   "<br>",
@@ -46,6 +56,7 @@ whois = [
   "IDE: Vscode",
   ".",
   "> GitHub",
+  "> Linux",
   "> Docker",
   "> Git",
   "> Markdown",
@@ -56,12 +67,12 @@ whois = [
 contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\">.</span>",
-  'Portosaurus    <a href="' + portosaurus + '" target="_blank">portosaurus.github.io/Xanthus58' + '</a>',
   'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
   'Instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
   'Github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",
   'Email          <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
   'Discord        <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
+  'Matrix         <a href="' + matrix + '" target="_blank">@xanthus58:matrix.org' + "</a>",
   "<br>"
 ];
 
@@ -91,9 +102,30 @@ projects = [
   "<br>"
 ];
 
+awards = [
+  "<br>",
+  "<span class=\"command\">---Certifications---</span><span class=\"color2\"></span>",
+  "<br>",
+  "<span class=\"command\">-Agriculture-</span><span class=\"color2\"></span>",
+  '<a href="' + AHCCHM307 + '" target="_blank">> AHCCHM307</a> │ Preparation and application of chemicals to controls pests weeds and diseases',
+  '<a href="' + AHCCHM304 + '" target="_blank">> AHCCHM304</a> │ Transport and storage of chemicals',
+  "<br>",
+]
+
+experience = [
+  "<br>",
+  "<span class=\"command\">-Employment-</span><span class=\"color2\"></span>",
+  '<a href="' + winget + '" target="_blank">> Volunteer Implementor</a>  │ I have a volunteered for microsofts package manager winget-pkgs | Jun-2021_Present',
+  '> Volunteer I.T support  │ I have volunteered to assist individuals with their technical issues from 2021-present',
+  '<a href="' + fiverr + '" target="_blank">> Freelance Software Engineer</a>  │ I am currently attempting to pursue a basic freelancing career with my rust development skills | July-2022_Present',
+  "<br>",
+];
+
 help = [
   "<br>",
   '<span class="command">whois</span>          Who is Xanthus?',
+  '<span class="command">experience</span>     View my experience',
+  '<span class="command">awards</span>         View my awards/certifications',
   '<span class="command">contact</span>        Display social networks',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',

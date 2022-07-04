@@ -63,6 +63,12 @@ function enterKey(e) {
 
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
+    case "awards":
+      loopLines(awards, "color2 margin", 186);
+      break;
+    case "experience":
+      loopLines(experience, "color2 margin", 186);
+      break;
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
@@ -79,6 +85,15 @@ function commander(cmd) {
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
+      break;
+    //Awards
+    case "ahcchm307":
+      addLine('Opening "https://training.gov.au/Training/Details/AHCCHM307"', "color2 margin", 80);
+      newTab(AHCCHM307);
+      break;
+    case "ahcchm304":
+      addLine('Opening "https://training.gov.au/Training/Details/AHCCHM304"', "color2 margin", 80);
+      newTab(AHCCHM304);
       break;
     case "vanillarenewed":
       addLine('Opening https://github.com/Xanthus58/Vanilla-Renewed/tree/Experimental',"color2", 80);
@@ -155,6 +170,10 @@ function commander(cmd) {
     loopLines(banner, "", 80);
     break;
     // socials
+    case "matrix":
+      addLine('Opening https://matrix.org/clients/',"color2", 80);
+      newTab(matrix);
+      break;
     case "twitter":
       addLine("Opening Twitter...", "color2", 0);
       newTab(twitter);
@@ -174,10 +193,6 @@ function commander(cmd) {
     case "discord":
       addLine('Opening Discord',"color2", 0);
       newTab(discord);
-      break;
-    case "portosaurus":
-      addLine("Opening Portosaurus...", "color2", 0);
-      newTab(portosaurus);
       break;
     default:
       addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
