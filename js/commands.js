@@ -43,7 +43,7 @@ whois = [
   "I like to expand my knowledge and explore new technologies.",
   "In my free time, I like to listen songs and game.",
   "<br>",
-  "<span class=\"command\">-Tech Stack-</span><span class=\"color2\">.</span>",
+  "<span class=\"command\">---Tech Stack---</span><span class=\"color2\">.</span>",
   "Technologies that I've been learning and picked up along my programming journey.",
   "<br>",
   "<span class=\"command\">-Languages-</span><span class=\"color2\">.</span>",
