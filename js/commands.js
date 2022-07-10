@@ -88,7 +88,7 @@ projects = [
   "<br>",
   "<span class=\"command\">-Game Stuff-</span><span class=\"color2\"></span>",
   '<a href="' + VanillaRenewed + '" target="_blank">> VanillaRenewed</a>       │ A minecraft vanilla+ texture pack',
-  '<a href="' + hacknet + '" target="_blank">> Hacknet_Game</a>       │ A WIP terminal basaed web game heavily inspired by the hacknet game',
+  '<a href="' + hacknet + '" target="_blank">> Hacknet_Game</a>         │ A WIP terminal basaed web game heavily inspired by the hacknet game',
   '<a href="' + StillAliveReforged + '" target="_blank">> StillAliveReforged</a>   │ A recreation of the "Still Alive" song from portal',
   '<a href="' + ValorantRandomizer + '" target="_blank">> ValorantRandomizer</a>   │ A small CLI randomizer for the game "Valorant"',
   '<a href="' + CCTweakedScripts + '" target="_blank">> CCTweakedScripts</a>     │ A collection of lua scripts for use in the minecraft mod "Computer Craft"',
