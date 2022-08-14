@@ -26,7 +26,7 @@ Currently self teaching with online resources 👨‍🎓
   <a href="https://github.com/Xanthus58">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Xanthus58&show_icons=true&theme=dark"/>
     <br>
-    <img height="245em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Xanthus&theme=dark&layout=compact"/>
+    <img height="315em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Xanthus&theme=dark&layout=compact"/>
   </a>
 </p>
 
