@@ -45,8 +45,6 @@ whois = [
   "In my free time, I like to listen to songs and game.",
   "<br>",
   "<span class=\"command\">---Tech Stack---</span><span class=\"color2\"></span>",
-  "Technologies that I've been learning and picked up along my programming journey.",
-  "<br>",
   "<span class=\"command\">-Languages-</span><span class=\"color2\"></span>",
   "> Rust",
   "> Python",
@@ -153,5 +151,6 @@ banner = [
 "   ##   ##  ##     ## ##   ###    ##    ##     ## ##     ## ##    ##      ##   ##       ##   ",
 "  ##     ## ##     ## ##    ##    ##    ##     ##  #######   ######        ## ##       ##    ",
 "Xanthus58 ©2022 xanthus58.github.io/Xanthus58/ All rights reserved",
-'<span class="color2">Welcome to my terminal. Theme inspired by GitHub</span>',
+'<span class="color2">Welcome to my terminal</span>',
+'<span class="color2"> Theme inspired by GitHub</span>',
 ];
