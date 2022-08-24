@@ -15,7 +15,8 @@ Currently self teaching with online resources 👨‍🎓
 💡 I like to expand my knowledge and explore new technologies.\
 🎮  In my free time, I like to listen songs and game.
 
-### ⚙️ &nbsp;GitHub Analytics
+<details>
+### <summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
 
 <div align="center">
   <h4> 
@@ -29,6 +30,8 @@ Currently self teaching with online resources 👨‍🎓
     <img height="290em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Xanthus&theme=dark&layout=compact"/>
   </a>
 </p>
+
+</details>
 
 ### 🛠 &nbsp;Tech Stack
 
