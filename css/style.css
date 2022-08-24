@@ -51,6 +51,7 @@ b {
   cursor: text;
   height: 50px;
   color: #2ea043;
+  word-break: break-all;
 }
 #liner {
   line-height: 1.3em;
@@ -62,9 +63,6 @@ b {
 #liner::before {
   color: #c9d1d2;
   content: "visitor@xanthus58.com:~$";
-}
-#liner.password::before {
-  content: "Password:";
 }
 @keyframes show {
   from {
@@ -80,7 +78,7 @@ p {
   line-height: 1.3em;
   margin: 0;
   overflow: hidden;
-  white-space: nowrap;
+  word-break: break-all;
   margin: 0;
   letter-spacing: 0.05em;
   animation: typing 0.5s steps(30, end);
