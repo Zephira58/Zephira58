@@ -16,7 +16,7 @@ Currently self teaching with online resources 👨‍🎓
 🎮  In my free time, I like to listen songs and game.
 
 <details>
-### <summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
+<summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
 
 <div align="center">
   <h4> 
