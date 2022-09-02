@@ -131,9 +131,9 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/Affirmation-Requester',"color2", 80);
       newTab(AffirmationRequester);
       break;
-    case "hacknet":
-      addLine('Opening',hacknet,"color2",80);
-      newTab(hacknet);
+    case "bullyluna":
+      addLine('Opening',Bully_Luna,"color2",80);
+      newTab(Bully_Luna);
       break;
     case "stanlysterminal":
       addLine('Opening https://github.com/Xanthus58/Stanlys_Terminal',"color2", 80);

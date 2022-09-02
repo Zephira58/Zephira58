@@ -22,7 +22,7 @@ var directory_lister = "https://github.com/Xanthus58/directory_lister";
 var guess_the_number = "https://github.com/Xanthus58/guess_the_number";
 var robux_calculator = "https://github.com/Xanthus58/robux_calculator";
 var supsafkrunner = "https://github.com/Xanthus58/sups_afk_runner";
-var hacknet = "example.org"
+var Bully_Luna = "https://github.com/Xanthus58/bully_luna_v4";
 
 //Experience
 var winget = "https://github.com/microsoft/winget-pkgs";
@@ -96,7 +96,6 @@ projects = [
   "<span class=\"command\">-Games-</span><span class=\"color2\"></span>",
   '<a href="' + guess_the_number + '" target="_blank">> GuessTheNumber</a>       │ A simple guess the number program, mostly written by githubs co-pilot to test its features.',
   '<a href="' + CLIAdventureGame + '" target="_blank> CLIAdventureGame</a>     │ A very small terminal escape the room game',
-  '<a href="' + hacknet + '" target="_blank">> Hacknet_Game</a>         │ A WIP mod for the game hacknet',
   '<a href="' + RockPaperScissorsCLI + '" target="_blank">> RockPaperScissorsCLI</a> │ A small rock paper scissors game for the terminal',
   "<span class=\"command\">-Game Emulation-</span><span class=\"color2\"></span>",
   '<a href="' + StillAliveReforged + '" target="_blank">> StillAliveReforged</a>   │ A recreation of the "Still Alive" song from portal',
@@ -105,6 +104,7 @@ projects = [
 
   "<span class=\"command\">---Miscellaneous---</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester</a> │ Small API handeler that can generate motivation quotes. Has ai intergration',
+  '<a href="' + Bully_Luna + '" target="_blank">> BullyLuna</a>            │My first gui app; its a simple program that uses 2 apis to communicate and bully my friend.',
   "<br>"
 ];
 
