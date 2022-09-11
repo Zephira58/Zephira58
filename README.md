@@ -44,12 +44,14 @@ Technologies that I've been learning and picked up along my programming journey.
 ![Lua](https://img.shields.io/badge/-Lua-05122A?style=flat-square&logo=lua)
 #### 🛠 OS & IDE & Tools <br />
 
+![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux&logoColor=2496ed)
+![Vscode](https://img.shields.io/badge/-Vscode-007ACC?style=flat&logo=visual-studio-code)
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![Windows](https://img.shields.io/badge/-Windows-black?style=flat-square&logo=windows&logoColor=2496ed)
 ![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat-square&logo=docker&logoColor=2496ed)
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
-![Vscode](https://img.shields.io/badge/-Vscode-007ACC?style=flat&logo=visual-studio-code)
+
 
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=kogisin/Xanthus58)
