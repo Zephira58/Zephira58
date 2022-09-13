@@ -22,7 +22,7 @@ var directory_lister = "https://github.com/Xanthus58/directory_lister";
 var guess_the_number = "https://github.com/Xanthus58/guess_the_number";
 var robux_calculator = "https://github.com/Xanthus58/robux_calculator";
 var supsafkrunner = "https://github.com/Xanthus58/sups_afk_runner";
-var Bully_Luna = "https://github.com/Xanthus58/bully_luna_v4";
+var webhook_sender = "https://github.com/Xanthus58/webhook_sender";
 
 //Experience
 var winget = "https://github.com/microsoft/winget-pkgs";
@@ -104,7 +104,7 @@ projects = [
 
   "<span class=\"command\">---Miscellaneous---</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester</a> │ Small API handeler that can generate motivation quotes. Has ai intergration',
-  '<a href="' + Bully_Luna + '" target="_blank">> BullyLuna</a>            │My first gui app; its a simple program that uses 2 apis to communicate and bully my friend.',
+  '<a href="' + webhook_sender + '" target="_blank">> Webhook Sender</a>       │ Send anonymous messages to have fun with your friends; Or use it as a tool to send embeds on discord! Webhook sender is the tool you need',
   "<br>"
 ];
 

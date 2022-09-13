@@ -131,9 +131,9 @@ function commander(cmd) {
       addLine('Opening https://github.com/Xanthus58/Affirmation-Requester',"color2", 80);
       newTab(AffirmationRequester);
       break;
-    case "bullyluna":
-      addLine('Opening',Bully_Luna,"color2",80);
-      newTab(Bully_Luna);
+    case "webhooksender":
+      addLine('Opening https://github.com/Xanthus58/webhook_sender',webhook_sender,"color2",80);
+      newTab(webhook_sender);
       break;
     case "stanlysterminal":
       addLine('Opening https://github.com/Xanthus58/Stanlys_Terminal',"color2", 80);
