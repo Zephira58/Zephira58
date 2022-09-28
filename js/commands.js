@@ -150,7 +150,7 @@ banner = [
 "    ## ##   ######### ##  ####    ##    ##     ## ##     ##       ##     ##     ##       ##  ",
 "   ##   ##  ##     ## ##   ###    ##    ##     ## ##     ## ##    ##      ##   ##       ##   ",
 "  ##     ## ##     ## ##    ##    ##    ##     ##  #######   ######        ## ##       ##    ",
-"Xanthus58 ©2022 xanthus58.github.io/Xanthus58/ All rights reserved",
+"Xanthus58 ©2022 xanthus.uk All rights reserved",
 '<span class="color2">Welcome to my terminal</span>',
 '<span class="color2"> Theme inspired by GitHub</span>',
 ];
