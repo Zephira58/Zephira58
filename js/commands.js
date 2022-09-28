@@ -2,7 +2,7 @@
 var twitter = "https://twitter.com/Xanthus5862";
 var instagram = "https://www.instagram.com/xanthus58/";
 var github = "https://github.com/Xanthus58";
-var email = 'mailto:xanthus58@protonmail.com';
+var email = 'mailto:business@xanthus.uk';
 var matrix = "https://matrix.org/clients/";
 var discord = "https://discord.gg/9V5DFkvY";
 
