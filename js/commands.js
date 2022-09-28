@@ -51,7 +51,7 @@ whois = [
   "> Lua",
   "<br>",
   "<span class=\"command\">-OS & IDE & Tools-</span><span class=\"color2\"></span>",
-  "OS: Windows",
+  "OS: Linux",
   "IDE: Vscode",
   "<br>",
   "> GitHub",
