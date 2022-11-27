@@ -87,13 +87,9 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     //Awards
-    case "ahcchm307":
-      addLine('Opening "https://training.gov.au/Training/Details/AHCCHM307"', "color2 margin", 80);
-      newTab(AHCCHM307);
-      break;
-    case "ahcchm304":
-      addLine('Opening "https://training.gov.au/Training/Details/AHCCHM304"', "color2 margin", 80);
-      newTab(AHCCHM304);
+    case "activedeveloper":
+      addLine('Opening "https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge"', "color2 margin", 80);
+      newTab(activedeveloper);
       break;
     case "vanillarenewed":
       addLine('Opening https://github.com/Xanthus58/Vanilla-Renewed/tree/Experimental',"color2", 80);

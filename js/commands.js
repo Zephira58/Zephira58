@@ -31,6 +31,7 @@ var fiverr = "https://www.fiverr.com";
 //Awards
 var AHCCHM304 = "https://training.gov.au/Training/Details/AHCCHM304";
 var AHCCHM307  = "https://training.gov.au/Training/Details/AHCCHM307";
+var activedeveloper = "https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge"
 
 whois = [
   "<br>",
@@ -113,8 +114,7 @@ awards = [
   "<span class=\"command\">---Certifications---</span><span class=\"color2\"></span>",
   "<br>",
   "<span class=\"command\">-Agriculture-</span><span class=\"color2\"></span>",
-  '<a href="' + AHCCHM307 + '" target="_blank">> AHCCHM307</a> │ Preparation and application of chemicals to controls pests weeds and diseases',
-  '<a href="' + AHCCHM304 + '" target="_blank">> AHCCHM304</a> │ Transport and storage of chemicals',
+  '<a href="' + activedeveloper + '" target="_blank">> ActiveDeveloper</a> │ A awarded discord badge for active development of a discord bot.',
   "<br>",
 ]
 
