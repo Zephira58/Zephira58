@@ -113,7 +113,7 @@ awards = [
   "<br>",
   "<span class=\"command\">---Certifications---</span><span class=\"color2\"></span>",
   "<br>",
-  "<span class=\"command\">-Agriculture-</span><span class=\"color2\"></span>",
+  "<span class=\"command\">-Development-</span><span class=\"color2\"></span>",
   '<a href="' + activedeveloper + '" target="_blank">> ActiveDeveloper</a> │ A awarded discord badge for active development of a discord bot.',
   "<br>",
 ]
