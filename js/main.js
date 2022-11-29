@@ -108,7 +108,7 @@ function commander(cmd) {
       newTab(ValorantRandomizer);
       break;
     case "malacyte":
-      addLine('Opening https://discordbotlist.com/bots/malacyte',"color2", 80);
+      addLine('Opening https://github.com/Xanthus58/malacyte',"color2", 80);
       newTab(malacyte);
       break;
     case "cctweakedscripts":
