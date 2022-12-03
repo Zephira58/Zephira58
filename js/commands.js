@@ -38,7 +38,7 @@ whois = [
   "Hi, there! I am Xanthus👋",
   "<br>",
   "<span class=\"command\">-About Me-</span><span class=\"color2\"></span>",
-  "I'm a Computer Enthusiast.nn",
+  "I'm a Computer Enthusiast.",
   "Currently self teaching with the help of online resources.",
   "Currently learning and growing my skillset in desktop development.",
   "Server operator and maintainer in my spare time.",
