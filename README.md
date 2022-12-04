@@ -15,6 +15,7 @@ Currently self teaching with online resources 👨‍🎓
 💡 I like to expand my knowledge and explore new technologies.\
 🎮  In my free time, I like to listen songs and game.
 
+<details>
 <summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
 
 <div align="center">
@@ -29,7 +30,7 @@ Currently self teaching with online resources 👨‍🎓
     <img height="290em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Xanthus&theme=dark&layout=compact"/>
   </a>
 </p>
-
+</details>
 
 ### 🛠 &nbsp;Tech Stack
 
@@ -45,7 +46,7 @@ Technologies that I've been learning and picked up along my programming journey.
 ![Lua Badge](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=fff&style=plastic)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=fff&style=plastic)
 
-#### 🛠 OS & IDE & Tools <br />
+#### 🛠 OS, IDE & Tools: <br />
 
 ![Arch Linux Badge](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=archlinux&logoColor=fff&style=plastic)
 ![IntelliJ IDEA Badge](https://img.shields.io/badge/IntelliJ%20IDEA-000?logo=intellijidea&logoColor=fff&style=plastic)
@@ -56,11 +57,13 @@ Technologies that I've been learning and picked up along my programming journey.
 ![Cloudflare Badge](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=fff&style=plastic)
 ![Oracle Badge](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=fff&style=plastic)
 
-#### 📦 Homelab Experience <br />
+#### 📦 Homelab Experience: <br />
 
 ![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=plastic)
 ![UbuntuServer Badge](https://img.shields.io/badge/UbuntuServer-E95420?logo=ubuntu&logoColor=fff&style=plastic)
 ![TrueNAS Badge](https://img.shields.io/badge/TrueNAS-0095D5?logo=truenas&logoColor=fff&style=plastic)
+![OpenSSL Badge](https://img.shields.io/badge/OpenSSL-721412?logo=openssl&logoColor=fff&style=plastic)
+![Let's Encrypt Badge](https://img.shields.io/badge/Let's%20Encrypt-003A70?logo=letsencrypt&logoColor=fff&style=plastic)
 ![Nextcloud](https://img.shields.io/badge/Nextcloud-3693F3?logo=icloud&logoColor=fff&style=plastic)
 ![Plex Badge](https://img.shields.io/badge/Plex-EBAF00?logo=plex&logoColor=fff&style=plastic)
 ![Matrix Badge](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff&style=plastic)
