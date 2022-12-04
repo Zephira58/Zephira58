@@ -43,12 +43,12 @@ Technologies that I've been learning and picked up along my programming journey.
 ![Java](https://img.shields.io/badge/-Java-05122A?style=flat-square&logo=intellijidea)
 ![Python](http://img.shields.io/badge/-Python-05122A?style=flat-square&logo=python&logoColor=F7B500)
 ![Lua](https://img.shields.io/badge/-Lua-05122A?style=flat-square&logo=lua)
-![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+![markdown](https://img.shields.io/badge/-markdown-05122A?style=flat-square&logo=markdown)
 
 #### 🛠 OS & IDE & Tools <br />
 
-![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux&logoColor=2496ed)
-![intellijidea](https://img.shields.io/badge/-intellijidea-black?style=flat-square&logo=intellijidea&logoColor=2496ed)
+![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat-square&logo=Linux)
+![intellijidea](https://img.shields.io/badge/-intellijidea-05122A?style=flat-square&logo=intellijidea)
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat-square&logo=docker&logoColor=2496ed)
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
