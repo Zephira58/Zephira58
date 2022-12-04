@@ -15,7 +15,6 @@ Currently self teaching with online resources 👨‍🎓
 💡 I like to expand my knowledge and explore new technologies.\
 🎮  In my free time, I like to listen songs and game.
 
-<details>
 <summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
 
 <div align="center">
@@ -31,7 +30,6 @@ Currently self teaching with online resources 👨‍🎓
   </a>
 </p>
 
-</details>
 
 ### 🛠 &nbsp;Tech Stack
 
