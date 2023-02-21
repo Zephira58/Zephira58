@@ -7,7 +7,7 @@ var matrix = "https://matrix.org/clients/";
 var discord = "https://discord.gg/9V5DFkvY";
 
 //Projects
-var VanillaRenewed = "https://github.com/Xanthus58/Vanilla-Renewed/tree/Experimental";
+var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
 var NetworkPoolCalculatorReforged = "https://github.com/Xanthus58/NetworkPoolCalculatorReforged";
 var StillAliveReforged = "https://github.com/Xanthus58/StillAliveReforged";
 var ValorantRandomizer = "https://github.com/Xanthus58/Valorant-Randomizer";
