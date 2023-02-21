@@ -54,7 +54,7 @@ whois = [
   "<br>",
   "<span class=\"command\">-OS & IDE & Tools-</span><span class=\"color2\"></span>",
   "OS: Linux",
-  "IDE: Intelij IDEA",
+  "IDE: Neovim",
   "<br>",
   "> GitHub",
   "> Linux",
