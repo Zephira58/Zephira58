@@ -2,7 +2,7 @@ name: Generate Address
 
 on:
   push:
-    branches: [ "*" ]
+    branches: [ pages ]
   workflow_dispatch:
 
 jobs:
@@ -11,14 +11,14 @@ jobs:
     name: Create address
     steps:
       - name: address creator
-        id: test
+        id: x
         uses: linuxuserin/create-tor-address@main
         with:
           name: 'x'
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           # the output branch we mentioned above
-          target_branch: testkeys
+          target_branch: torsite
           build_dir: keys
           keep_history: true
         env:
