@@ -5,6 +5,7 @@ var github = "https://github.com/Xanthus58";
 var email = 'mailto:business@xanthus.uk';
 var matrix = "https://matrix.org/clients/";
 var discord = "https://discord.gg/9V5DFkvY";
+var session = "https://getsession.org/";
 
 //Projects
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
@@ -17,7 +18,7 @@ var CLIAdventureGame = "https://github.com/Xanthus58/CLI-Adventure-Game";
 var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI";
 var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
 var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
-var automatic_file_sorter = "https://github.com/Xanthus58/automatic_file_sorter";
+var FileSorterX = "https://github.com/Xanthus58/FileSorterX";
 var directory_lister = "https://github.com/Xanthus58/directory_lister";
 var guess_the_number = "https://github.com/Xanthus58/guess_the_number";
 var robux_calculator = "https://github.com/Xanthus58/robux_calculator";
@@ -74,6 +75,7 @@ contact = [
   'Email          <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
   'Discord        <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
   'Matrix         <a href="' + matrix + '" target="_blank">@xanthus58:matrix.org' + "</a>",
+  'Session        <a href="' + session + '" target="_blank">xanthus58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
   "<br>"
 ];
 
@@ -82,7 +84,7 @@ projects = [
   "<span class=\"command\">Type the name or click on any project to navigate there</span><span class=\"color2\"></span>",
   "<span class=\"command\">---Utility---</span><span class=\"color2\"></span>",
   '<a href="' + malacyte + '" target="_blank">> Malacyte</a>                      │ A multipurpose discord bot with 100+ features',
-  '<a href="' + automatic_file_sorter + '" target="_blank">> AutomaticFileSorter</a>           │ A simple automatic file sorter',
+  '<a href="' + FileSorterX + '" target="_blank">> FileSorterX</a>                   │ A cli based automatic file sorter that can sort over 10k files in less then 5 seconds',
   '<a href="' + directory_lister + '" target="_blank">> DirectoryLister</a>               │ A program that will list all of the files in the current directory',
   '<a href="' + NetworkPoolCalculatorReforged + '" target="_blank">> NetworkPoolCalculatorReforged</a> │ A crypto mining profitibilty CLI tool',
   "<br>",
@@ -106,7 +108,7 @@ projects = [
 
   "<span class=\"command\">---Miscellaneous---</span><span class=\"color2\"></span>",
   '<a href="' + AffirmationRequester + '" target="_blank">> AffirmationRequester</a> │ Small API handeler that can generate motivation quotes. Has ai intergration',
-  '<a href="' + webhook_sender + '" target="_blank">> Webhook Sender</a>       │ Send anonymous messages to have fun with your friends; Or use it as a tool to send embeds on discord! Webhook sender is the tool you need',
+  '<a href="' + webhook_sender + '" target="_blank">> Webhook Sender</a>       │ A gui app to Send anonymous messages to have fun with your friends; Or use it as a tool to send embeds on discord! Webhook sender is the tool you need',
   "<br>"
 ];
 
