@@ -170,10 +170,6 @@ function commander(cmd) {
     loopLines(banner, "", 80);
     break;
     // socials
-    case "matrix":
-      addLine('Opening https://matrix.org/clients/',"color2", 80);
-      newTab(matrix);
-      break;
     case "twitter":
       addLine("Opening Twitter...", "color2", 0);
       newTab(twitter);
