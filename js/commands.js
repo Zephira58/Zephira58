@@ -3,8 +3,9 @@ var twitter = "https://twitter.com/Xanthus5862";
 var instagram = "https://www.instagram.com/xanthus58/";
 var github = "https://github.com/Xanthus58";
 var email = 'mailto:business@xanthus.uk';
-var discord = "https://discord.gg/9V5DFkvY";
+var discord = "https://discord.gg/Kd7udvugQN";
 var session = "https://getsession.org/";
+var tiktok ="https://www.tiktok.com/@xanthus58"
 
 //Projects
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
@@ -74,6 +75,7 @@ contact = [
   'Email          <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
   'Discord        <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
   'Session        <a href="' + session + '" target="_blank">xanthus58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
+  'Tiktok         <a href="' + discord + '" target="_blank">@xanthus58' + "</a>",
   "<br>"
 ];
 
