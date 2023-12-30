@@ -3,7 +3,7 @@ var twitter = "https://twitter.com/Xanthus5862";
 var instagram = "https://www.instagram.com/xanthus58/";
 var github = "https://github.com/Xanthus58";
 var email = 'mailto:business@xanthus.uk';
-var discord = "https://discord.gg/Kd7udvugQN";
+var discord = "https://discord.com/users/292971545956188160";
 var session = "https://getsession.org/";
 var tiktok ="https://www.tiktok.com/@xanthus58"
 
