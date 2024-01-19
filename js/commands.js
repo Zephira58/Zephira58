@@ -83,7 +83,7 @@ projects = [
   "<br>",
   "<span class=\"command\">Type the name or click on any project to navigate there</span><span class=\"color2\"></span>",
   "<span class=\"command\">---Utility---</span><span class=\"color2\"></span>",
-  '<a href="' + malacyte + '" target="_blank">> Malacyte</a>                      │ A multipurpose discord bot with 100+ features',
+  '<a href="' + malacyte + '" target="_blank">> Malacyte</a>                      │ A small and simple mltipurpose discord bot',
   '<a href="' + FileSorterX + '" target="_blank">> FileSorterX</a>                   │ A cli based automatic file sorter that can sort over 10k files in less then 5 seconds',
   '<a href="' + directory_lister + '" target="_blank">> DirectoryLister</a>               │ A program that will list all of the files in the current directory',
   '<a href="' + NetworkPoolCalculatorReforged + '" target="_blank">> NetworkPoolCalculatorReforged</a> │ A crypto mining profitibilty CLI tool',
