@@ -1,6 +1,6 @@
 <div align="center">
   <h2> 
-    Hi, there! I am Xanthus 👋
+    Hi, there! I am Zephira 👋
   </h2>
 </div>
 
