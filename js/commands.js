@@ -70,12 +70,12 @@ contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\"></span>",
   'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Zephira58' + '</a>',
-  'Instagram      <a href="' + instagram + '" target="_blank">instagram/Zephira58' + '</a>',
+  'Instagram      <a href="' + instagram + '" target="_blank">instagram/zephira58' + '</a>',
   'Github         <a href="' + github + '" target="_blank">github/Zephira58' + "</a>",
   'Email          <a href="' + email + '" target="_blank">Zephira58@protonmail.com' + "</a>",
   'Discord        <a href="' + discord + '" target="_blank">zephira58' + "</a>",
   'Session        <a href="' + session + '" target="_blank">Zephira58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
-  'Tiktok         <a href="' + tiktok + '" target="_blank">@Zephira58' + "</a>",
+  'Tiktok         <a href="' + tiktok + '" target="_blank">@zephira5862' + "</a>",
   "<br>"
 ];
 
@@ -146,6 +146,7 @@ help = [
 ];
 
 banner = [
+"",
 "  ███████╗███████╗██████╗ ██╗  ██╗██╗██████╗  █████╗       ██╗    ██╗██╗  ",
 "  ╚══███╔╝██╔════╝██╔══██╗██║  ██║██║██╔══██╗██╔══██╗     ██╔╝   ██╔╝╚██╗ ",
 "   ███╔╝ █████╗  ██████╔╝███████║██║██████╔╝███████║    ██╔╝   ██╔╝  ╚██╗",

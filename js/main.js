@@ -193,7 +193,7 @@ function commander(cmd) {
       case "tiktok":
         addLine('Opening TikTok',"color2", 0);
         newTab(tiktok);
-        break;c
+        break;
     default:
       addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
       break;
