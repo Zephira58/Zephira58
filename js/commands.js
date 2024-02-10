@@ -1,29 +1,29 @@
 //Socials
-var twitter = "https://twitter.com/Xanthus5862";
-var instagram = "https://www.instagram.com/xanthus58/";
-var github = "https://github.com/Xanthus58";
-var email = 'mailto:business@xanthus.uk';
+var twitter = "https://twitter.com/Zephira58";
+var instagram = "https://www.instagram.com/zephira58/";
+var github = "https://github.com/Zephira58";
+var email = 'mailto:Zephira58@protonmail.com';
 var discord = "https://discord.com/users/292971545956188160";
 var session = "https://getsession.org/";
-var tiktok ="https://www.tiktok.com/@xanthus58"
+var tiktok ="https://www.tiktok.com/@zephira5862"
 
 //Projects
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
-var NetworkPoolCalculatorReforged = "https://github.com/Xanthus58/NetworkPoolCalculatorReforged";
-var StillAliveReforged = "https://github.com/Xanthus58/StillAliveReforged";
-var ValorantRandomizer = "https://github.com/Xanthus58/Valorant-Randomizer";
-var malacyte = "https://github.com/Xanthus58/malacyte";
-var CCTweakedScripts = "https://github.com/Xanthus58/CC-Tweaked-Scripts";
-var CLIAdventureGame = "https://github.com/Xanthus58/CLI-Adventure-Game";
-var RockPaperScissorsCLI = "https://github.com/Xanthus58/Rock-Paper-Scissors-CLI";
-var AffirmationRequester = "https://github.com/Xanthus58/Affirmation-Requester";
-var StanlysTerminal = "https://github.com/Xanthus58/Stanlys_Terminal";
-var FileSorterX = "https://github.com/Xanthus58/FileSorterX";
-var directory_lister = "https://github.com/Xanthus58/directory_lister";
-var guess_the_number = "https://github.com/Xanthus58/guess_the_number";
-var robux_calculator = "https://github.com/Xanthus58/robux_calculator";
-var supsafkrunner = "https://github.com/Xanthus58/sups_afk_runner";
-var webhook_sender = "https://github.com/Xanthus58/webhook_sender";
+var NetworkPoolCalculatorReforged = "https://github.com/Zephira58/NetworkPoolCalculatorReforged";
+var StillAliveReforged = "https://github.com/Zephira58/StillAliveReforged";
+var ValorantRandomizer = "https://github.com/Zephira58/Valorant-Randomizer";
+var malacyte = "https://github.com/Zephira58/malacyte";
+var CCTweakedScripts = "https://github.com/Zephira58/CC-Tweaked-Scripts";
+var CLIAdventureGame = "https://github.com/Zephira58/CLI-Adventure-Game";
+var RockPaperScissorsCLI = "https://github.com/Zephira58/Rock-Paper-Scissors-CLI";
+var AffirmationRequester = "https://github.com/Zephira58/Affirmation-Requester";
+var StanlysTerminal = "https://github.com/Zephira58/Stanlys_Terminal";
+var FileSorterX = "https://github.com/Zephira58/FileSorterX";
+var directory_lister = "https://github.com/Zephira58/directory_lister";
+var guess_the_number = "https://github.com/Zephira58/guess_the_number";
+var robux_calculator = "https://github.com/Zephira58/robux_calculator";
+var supsafkrunner = "https://github.com/Zephira58/sups_afk_runner";
+var webhook_sender = "https://github.com/Zephira58/webhook_sender";
 
 //Experience
 var winget = "https://github.com/microsoft/winget-pkgs";
@@ -36,7 +36,7 @@ var activedeveloper = "https://support-dev.discord.com/hc/en-us/articles/1011399
 
 whois = [
   "<br>",
-  "Hi, there! I am Xanthus👋",
+  "Hi, there! I am Zephira👋",
   "<br>",
   "<span class=\"command\">-About Me-</span><span class=\"color2\"></span>",
   "I'm a Computer Enthusiast.",
@@ -69,13 +69,13 @@ whois = [
 contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\"></span>",
-  'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Xanthus5862' + '</a>',
-  'Instagram      <a href="' + instagram + '" target="_blank">instagram/xanthus58' + '</a>',
-  'Github         <a href="' + github + '" target="_blank">github/Xanthus58' + "</a>",
-  'Email          <a href="' + email + '" target="_blank">xanthus58@protonmail.com' + "</a>",
-  'Discord        <a href="' + discord + '" target="_blank">Xanthus#3862' + "</a>",
-  'Session        <a href="' + session + '" target="_blank">xanthus58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
-  'Tiktok         <a href="' + discord + '" target="_blank">@xanthus58' + "</a>",
+  'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Zephira5862' + '</a>',
+  'Instagram      <a href="' + instagram + '" target="_blank">instagram/Zephira58' + '</a>',
+  'Github         <a href="' + github + '" target="_blank">github/Zephira58' + "</a>",
+  'Email          <a href="' + email + '" target="_blank">Zephira58@protonmail.com' + "</a>",
+  'Discord        <a href="' + discord + '" target="_blank">Zephira#3862' + "</a>",
+  'Session        <a href="' + session + '" target="_blank">Zephira58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
+  'Tiktok         <a href="' + discord + '" target="_blank">@Zephira58' + "</a>",
   "<br>"
 ];
 
@@ -134,7 +134,7 @@ experience = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Xanthus?',
+  '<span class="command">whois</span>          Who is Zephira?',
   '<span class="command">experience</span>     View my experience',
   '<span class="command">awards</span>         View my awards/certifications',
   '<span class="command">contact</span>        Display social networks',
@@ -146,14 +146,14 @@ help = [
 ];
 
 banner = [
-"  ##     ##    ###    ##    ## ######## ##     ## ##     ##  ######        ##       ## ##    ",
-"   ##   ##    ## ##   ###   ##    ##    ##     ## ##     ## ##    ##      ##       ##   ##   ",
-"    ## ##    ##   ##  ####  ##    ##    ##     ## ##     ## ##           ##       ##     ##  ",
-"     ###    ##     ## ## ## ##    ##    ######### ##     ##  ######     ##       ##       ## ",
-"    ## ##   ######### ##  ####    ##    ##     ## ##     ##       ##     ##     ##       ##  ",
-"   ##   ##  ##     ## ##   ###    ##    ##     ## ##     ## ##    ##      ##   ##       ##   ",
-"  ##     ## ##     ## ##    ##    ##    ##     ##  #######   ######        ## ##       ##    ",
-"Xanthus58 ©2022 xanthus.uk All rights reserved",
+"  ███████╗███████╗██████╗ ██╗  ██╗██╗██████╗  █████╗       ██╗    ██╗██╗  ",
+"  ╚══███╔╝██╔════╝██╔══██╗██║  ██║██║██╔══██╗██╔══██╗     ██╔╝   ██╔╝╚██╗ ",
+"   ███╔╝ █████╗  ██████╔╝███████║██║██████╔╝███████║    ██╔╝   ██╔╝  ╚██╗",
+"   ███╔╝  ██╔══╝  ██╔═══╝ ██╔══██║██║██╔══██╗██╔══██║    ╚██╗  ██╔╝   ██╔╝",
+"  ███████╗███████╗██║     ██║  ██║██║██║  ██║██║  ██║     ╚██╗██╔╝   ██╔╝ ",
+"  ╚══════╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝      ╚═╝╚═╝    ╚═╝ ", 
+"                                                                        ",
+"Zephira58 ©2024 zephira.uk All rights reserved",
 '<span class="color2">Welcome to my terminal</span>',
 '<span class="color2">Dracula Themed!</span>',
 ];

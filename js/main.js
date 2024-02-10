@@ -39,7 +39,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("visitor@xanthus.uk:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("visitor@zephira.uk:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -92,67 +92,67 @@ function commander(cmd) {
       newTab(activedeveloper);
       break;
     case "vanillarenewed":
-      addLine('Opening https://github.com/Xanthus58/Vanilla-Renewed/tree/Experimental',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/Vanilla-Renewed/tree/Experimental',"color2", 80);
       newTab(VanillaRenewed);
       break;
     case "networkpoolcalculatorreforged":
-      addLine('Opening https://github.com/Xanthus58/NetworkPoolCalculatorReforged',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/NetworkPoolCalculatorReforged',"color2", 80);
       newTab(NetworkPoolCalculatorReforged);
       break;
     case "stillalivereforged":
-      addLine('Opening https://github.com/Xanthus58/StillAliveReforged',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/StillAliveReforged',"color2", 80);
       newTab(StillAliveReforged);
       break;
     case "valorantrandomizer":
-      addLine('Opening https://github.com/Xanthus58/Valorant-Randomizer',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/Valorant-Randomizer',"color2", 80);
       newTab(ValorantRandomizer);
       break;
     case "malacyte":
-      addLine('Opening https://github.com/Xanthus58/malacyte',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/malacyte',"color2", 80);
       newTab(malacyte);
       break;
     case "cctweakedscripts":
-      addLine('Opening https://github.com/Xanthus58/CC-Tweaked-Scripts',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/CC-Tweaked-Scripts',"color2", 80);
       newTab(CCTweakedScripts);
       break;
     case "cliadventuregame":
-      addLine('Opening https://github.com/Xanthus58/CLI-Adventure-Game',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/CLI-Adventure-Game',"color2", 80);
       newTab(CLIAdventureGame);
       break;
     case "rockpaperscissorscli":
-      addLine('Opening https://github.com/Xanthus58/Rock-Paper-Scissors-CLI',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/Rock-Paper-Scissors-CLI',"color2", 80);
       newTab(RockPaperScissorsCLI);
       break;
     case "affirmationrequester":
-      addLine('Opening https://github.com/Xanthus58/Affirmation-Requester',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/Affirmation-Requester',"color2", 80);
       newTab(AffirmationRequester);
       break;
     case "webhooksender":
-      addLine('Opening https://github.com/Xanthus58/webhook_sender',webhook_sender,"color2",80);
+      addLine('Opening https://github.com/Zephira58/webhook_sender',webhook_sender,"color2",80);
       newTab(webhook_sender);
       break;
     case "stanlysterminal":
-      addLine('Opening https://github.com/Xanthus58/Stanlys_Terminal',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/Stanlys_Terminal',"color2", 80);
       newTab(StanlysTerminal);
       break
     case "FileSorterX":
-      addLine('Opening https://github.com/Xanthus58/FileSorterX',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/FileSorterX',"color2", 80);
       newTab(FileSorterX);
       break
     case "directorylister":
-      addLine('Opening https://github.com/Xanthus58/directory_lister',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/directory_lister',"color2", 80);
       newTab(directory_lister);
       break
     case "guessthenumber":
-      addLine('Opening https://github.com/Xanthus58/guess_the_number',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/guess_the_number',"color2", 80);
       newTab(guess_the_number);
       break
     case "robuxcalculator":
-      addLine('Opening https://github.com/Xanthus58/robux_calculato',"color2", 80);
+      addLine('Opening https://github.com/Zephira58/robux_calculato',"color2", 80);
       newTab(robux_calculator);
       break
     case "supsafkrunner":
-      addLine('Opening https://github.com/Xanthus58/sups_afk_runner', "color2", 80);
+      addLine('Opening https://github.com/Zephira58/sups_afk_runner', "color2", 80);
       newTab(supsafkrunner);
       break
     case "clear":
