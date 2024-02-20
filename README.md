@@ -15,6 +15,7 @@ Currently self teaching with online resources 👨‍🎓
 💡 I like to expand my knowledge and explore new technologies.\
 🎮  In my free time, I like to listen songs and game. \
 🏳️‍⚧️ I'm your resident online trans-girl just tryna fit the aesthetic ♥
+🐨 I come from a land down under 🎶
 
 <details>
 <summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
