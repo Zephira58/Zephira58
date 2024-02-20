@@ -111,6 +111,10 @@ function commander(cmd) {
       addLine('Opening https://github.com/Zephira58/malacyte',"color2", 80);
       newTab(malacyte);
       break;
+    case "purplewood":
+      addLine('Opening https://github.com/Zephira58/purplewood',"color2", 80);
+      newTab(purplewood);
+      break;
     case "cctweakedscripts":
       addLine('Opening https://github.com/Zephira58/CC-Tweaked-Scripts',"color2", 80);
       newTab(CCTweakedScripts);
