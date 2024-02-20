@@ -14,7 +14,7 @@ Currently self teaching with online resources 👨‍🎓
 📦  Server operator and maintainer in my spare time.\
 💡 I like to expand my knowledge and explore new technologies.\
 🎮  In my free time, I like to listen songs and game. \
-🏳️‍⚧️ I'm your resident online trans-girl just tryna fit the aesthetic :p \
+🏳️‍⚧️ I'm your resident online trans-girl just tryna fit the aesthetic :p 
 
 <details>
 <summary><b>⚙️ &nbsp;GitHub Analytics</b></summary>
