@@ -27,7 +27,7 @@ var webhook_sender = "https://github.com/Zephira58/webhook_sender";
 var purplewood = "https://github.com/Zephira58/purplewood";
 
 //Experience
-var winget = "https://github.com/microsoft/winget-pkgs";
+var winget = "https://github.com/Zephira58?from=2022-12-01&to=2022-12-31&org=microsoft&year_list=1";
 var fiverr = "https://www.fiverr.com";
 
 //Awards
@@ -126,9 +126,9 @@ awards = [
 experience = [
   "<br>",
   "<span class=\"command\">---Employment---</span><span class=\"color2\"></span>",
-  '<a href="' + winget + '" target="_blank">> Volunteer Implementor</a>           │ I have a volunteered for microsofts package manager winget-pkgs | Jun-2021_Present',
+  '<a href="' + winget + '" target="_blank">> Winget </a>                         │ I have a volunteered for microsofts package manager winget-pkgs | Jun-2021_Jun-2022',
   '> Volunteer I.T support           │ I have volunteered to assist individuals with their technical issues from 2021-present',
-  '<a href="' + fiverr + '" target="_blank">> Freelance Software Engineer</a>     │ I am currently attempting to pursue a basic freelancing career with my rust development skills | July-2022_Present',
+  '<a href="' + fiverr + '" target="_blank">> Fiverr</a>                          │ I am currently attempting to pursue a basic freelancing career with my rust development skills | July-2022_Present',
   '> Server Operator                 │ I have owned; maintained; and hosted several servers. From game servers, to personal cloud storage and DNS servers and more',
   '> Programming teacher             │ I have volunteered to assist individuals with their software development skills in lua; rust and python from 2021-present',
   "<br>",

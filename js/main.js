@@ -187,17 +187,28 @@ function commander(cmd) {
       newTab(github);
       break;
     case "email":
-      addLine('Opening Email', "color2", 0);
+      addLine('Opening Email...', "color2", 0);
       newTab(email);
       break;
     case "discord":
-      addLine('Opening Discord',"color2", 0);
+      addLine('Opening Discord...',"color2", 0);
       newTab(discord);
       break;
-      case "tiktok":
-        addLine('Opening TikTok',"color2", 0);
-        newTab(tiktok);
-        break;
+    case "session":
+      addLine('Opening Session...',"color2", 0);
+      newTab(session);
+      break;
+    case "tiktok":
+      addLine('Opening TikTok...',"color2", 0);
+      newTab(tiktok);
+      break;
+    // Experience
+    case "winget":
+      addLine('Opening Github...',"color2", 0);
+      newTab(winget);
+    case "fiverr":
+      addLine('Opening Fiverr...',"color2", 0);
+      newTab(fiverr);
     default:
       addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
       break;
