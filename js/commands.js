@@ -24,6 +24,7 @@ var guess_the_number = "https://github.com/Zephira58/guess_the_number";
 var robux_calculator = "https://github.com/Zephira58/robux_calculator";
 var supsafkrunner = "https://github.com/Zephira58/sups_afk_runner";
 var webhook_sender = "https://github.com/Zephira58/webhook_sender";
+var purplewood = "https://github.com/Zephira58/purplewood";
 
 //Experience
 var winget = "https://github.com/microsoft/winget-pkgs";
@@ -84,6 +85,7 @@ projects = [
   "<span class=\"command\">Type the name or click on any project to navigate there</span><span class=\"color2\"></span>",
   "<span class=\"command\">---Utility---</span><span class=\"color2\"></span>",
   '<a href="' + malacyte + '" target="_blank">> Malacyte</a>                      │ A small and simple mltipurpose discord bot',
+  '<a href="' + purplewood + '" target="_blank">> Purplewood</a>                    │ A custom made discord bot for my friends to overhaul their recruitment system',
   '<a href="' + FileSorterX + '" target="_blank">> FileSorterX</a>                   │ A cli based automatic file sorter that can sort over 10k files in less then 5 seconds',
   '<a href="' + directory_lister + '" target="_blank">> DirectoryLister</a>               │ A program that will list all of the files in the current directory',
   '<a href="' + NetworkPoolCalculatorReforged + '" target="_blank">> NetworkPoolCalculatorReforged</a> │ A crypto mining profitibilty CLI tool',
