@@ -202,6 +202,26 @@ function commander(cmd) {
       addLine('Opening TikTok...',"color2", 0);
       newTab(tiktok);
       break;
+    case "twitch":
+      addLine('Opening Twitch...',"color2", 0);
+      newTab(twitch);
+      break;
+    case "tiktok":
+      addLine('Opening TikTok...',"color2", 0);
+      newTab(tiktok);
+      break;
+    case "steam":
+      addLine('Opening Steam...',"color2", 0);
+      newTab(steam);
+      break;
+    case "spotify":
+      addLine('Opening Spotify...',"color2", 0);
+      newTab(spotify);
+      break;
+    case "youtube":
+      addLine('Opening YouTube...',"color2", 0);
+      newTab(youtube);
+      break;
     // Experience
     case "winget":
       addLine('Opening Github...',"color2", 0);

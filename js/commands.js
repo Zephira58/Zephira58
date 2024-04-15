@@ -5,7 +5,11 @@ var github = "https://github.com/Zephira58";
 var email = 'mailto:Zephira58@protonmail.com';
 var discord = "https://discord.com/users/292971545956188160";
 var session = "https://getsession.org/";
-var tiktok ="https://www.tiktok.com/@zephira5862"
+var tiktok ="https://www.tiktok.com/@zephira5862";
+var twitch = "https://www.twitch.tv/zephira5862";
+var steam = "https://steamcommunity.com/id/Zephira58/";
+var spotify = "https://open.spotify.com/user/pikachu5862";
+var youtube = "https://www.youtube.com/channel/UCpDKtGrvvxGJaVjMjF9l2kg"; 
 
 //Projects
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
@@ -77,6 +81,10 @@ contact = [
   'Discord        <a href="' + discord + '" target="_blank">zephira58' + "</a>",
   'Session        <a href="' + session + '" target="_blank">Zephira58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
   'Tiktok         <a href="' + tiktok + '" target="_blank">@zephira5862' + "</a>",
+  'Twitch         <a href="' + twitch + '" target="_blank">@zephira5862' + "</a>",
+  'Steam          <a href="' + steam + '" target="_blank">Zephira58' + "</a>",
+  'Spotify        <a href="' + spotify + '" target="_blank">pikachu5862' + "</a>",
+  'YouTube        <a href="' + youtube + '" target="_blank">@zephira58' + "</a>",
   "<br>"
 ];
 
