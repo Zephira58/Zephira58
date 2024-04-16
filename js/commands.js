@@ -10,7 +10,7 @@ var twitch = "https://www.twitch.tv/zephira5862";
 var steam = "https://steamcommunity.com/id/Zephira58/";
 var spotify = "https://open.spotify.com/user/pikachu5862";
 var youtube = "https://www.youtube.com/channel/UCpDKtGrvvxGJaVjMjF9l2kg"; 
-
+var reddit = "https://www.reddit.com/user/Mutated_Zombie/";
 //Projects
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
 var NetworkPoolCalculatorReforged = "https://github.com/Zephira58/NetworkPoolCalculatorReforged";
@@ -74,9 +74,9 @@ whois = [
 contact = [
   "<br>",
   "<span class=\"command\">-Feel free to contact me on any socials below-</span><span class=\"color2\"></span>",
-  'Twitter        <a href="' + twitter + '" target="_blank">twitter.com/Zephira58' + '</a>',
-  'Instagram      <a href="' + instagram + '" target="_blank">instagram/zephira58' + '</a>',
-  'Github         <a href="' + github + '" target="_blank">github/Zephira58' + "</a>",
+  'Twitter        <a href="' + twitter + '" target="_blank">@Zephira58' + '</a>',
+  'Instagram      <a href="' + instagram + '" target="_blank">@zephira58' + '</a>',
+  'Github         <a href="' + github + '" target="_blank">Zephira58' + "</a>",
   'Email          <a href="' + email + '" target="_blank">Zephira58@protonmail.com' + "</a>",
   'Discord        <a href="' + discord + '" target="_blank">zephira58' + "</a>",
   'Session        <a href="' + session + '" target="_blank">Zephira58 | 05600040c422703b5878e821d053b9d206667185e52f78e1ea54685ff830e95103' + "</a>",
@@ -85,6 +85,7 @@ contact = [
   'Steam          <a href="' + steam + '" target="_blank">Zephira58' + "</a>",
   'Spotify        <a href="' + spotify + '" target="_blank">pikachu5862' + "</a>",
   'YouTube        <a href="' + youtube + '" target="_blank">@zephira58' + "</a>",
+  'Reddit         <a href="' + reddit + '" target="_blank">u/Mutated_Zombie' + "</a>",
   "<br>"
 ];
 
