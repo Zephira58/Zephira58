@@ -222,10 +222,6 @@ function commander(cmd) {
       addLine('Opening YouTube...',"color2", 0);
       newTab(youtube);
       break;
-    case "reddit":
-      addLine('Opening Reddit...',"color2", 0);
-      newTab(reddit);
-      break;
     // Experience
     case "winget":
       addLine('Opening Github...',"color2", 0);

@@ -10,7 +10,6 @@ var twitch = "https://www.twitch.tv/zephira5862";
 var steam = "https://steamcommunity.com/id/Zephira58/";
 var spotify = "https://open.spotify.com/user/pikachu5862";
 var youtube = "https://www.youtube.com/channel/UCpDKtGrvvxGJaVjMjF9l2kg"; 
-var reddit = "https://www.reddit.com/user/Mutated_Zombie/";
 //Projects
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
 var NetworkPoolCalculatorReforged = "https://github.com/Zephira58/NetworkPoolCalculatorReforged";
@@ -85,7 +84,6 @@ contact = [
   'Steam          <a href="' + steam + '" target="_blank">Zephira58' + "</a>",
   'Spotify        <a href="' + spotify + '" target="_blank">pikachu5862' + "</a>",
   'YouTube        <a href="' + youtube + '" target="_blank">@zephira58' + "</a>",
-  'Reddit         <a href="' + reddit + '" target="_blank">u/Mutated_Zombie' + "</a>",
   "<br>"
 ];
 
