@@ -11,6 +11,7 @@ var steam = "https://steamcommunity.com/id/Zephira58/";
 var spotify = "https://open.spotify.com/user/pikachu5862";
 var youtube = "https://www.youtube.com/channel/UCpDKtGrvvxGJaVjMjF9l2kg"; 
 //Projects
+var cloud = "https://cloud.zephira.uk/login"
 var VanillaRenewed = "https://github.com/Vanilla-Renewed-Team/Vanilla-Renewed";
 var NetworkPoolCalculatorReforged = "https://github.com/Zephira58/NetworkPoolCalculatorReforged";
 var StillAliveReforged = "https://github.com/Zephira58/StillAliveReforged";
@@ -144,6 +145,7 @@ experience = [
 help = [
   "<br>",
   '<span class="command">whois</span>          Who is Zephira?',
+  '<span class="command">cloud</span>          Access my cloud storage service, if you have an account',
   '<span class="command">experience</span>     View my experience',
   '<span class="command">awards</span>         View my awards/certifications',
   '<span class="command">contact</span>        Display social networks',

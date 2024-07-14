@@ -75,6 +75,10 @@ function commander(cmd) {
     case "whois":
       loopLines(whois, "color2 margin", 80);
       break;
+    case "cloud":
+      addLine('Opening "https://cloud.zephira.uk/login"', "color2 margin", 80);
+      newTab(cloud);
+      break;
     case "contact":
       loopLines(contact, "color2 margin", 80);
       break;
