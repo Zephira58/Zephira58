@@ -167,7 +167,7 @@ function loopLines(name, style, time) {
 // Filesystem subsection
 
 let renderedImages = [];
-let currentDirectory = 'img/media'; // will change when blogs are added
+let currentDirectory = '/img/media'; // will change when blogs are added
 
 const fileSystem = {
   
@@ -175,18 +175,18 @@ const fileSystem = {
     'img': {
     'media': {
       'elite': {
-        'save_0 (1).png': 'image_url',
-        'save_1 (2).png': 'image_url',
-        'save_2 (2).png': 'image_url',
-        'save_3 (2).png': 'image_url',
-        'save_4 (2).png': 'image_url',
-        'save_5 (2).png': 'image_url',
-        'save_6 (2).png': 'image_url',
-        'save_7 (2).png': 'image_url'
+        '1.png': 'image_url',
+        '2.png': 'image_url',
+        '3.png': 'image_url',
+        '4.png': 'image_url',
+        '5.png': 'image_url',
+        '6.png': 'image_url',
+        '7.png': 'image_url',
+        '8.png': 'image_url'
       },
       'scotl': {
         '20231125231102_1.jpg': 'image_url',
-        '20231125231326_1.jpg': 'image_url',
+        '20231125231326_1.': 'image_url',
         '20231125231459_1.jpg': 'image_url',
         '20231125231836_1.jpg': 'image_url',
         '20231125231912_1.jpg': 'image_url',
@@ -262,7 +262,7 @@ const fileSystem = {
         '16-11-2018_15-22-02.png': 'image_url',
         '16-11-2018_15-23-10.png': 'image_url',
         '16-11-2018_15-24-42.png': 'image_url',
-        '1.jpeg': 'image_url',
+        '1.jpg': 'image_url',
         '2.jpg': 'image_url',
         '3.jpg': 'image_url',
         '4.jpg': 'image_url',
