@@ -66,6 +66,9 @@ Technologies that I've been learning and picked up along my programming journey.
 ![SteamCMD Badge](https://img.shields.io/badge/SteamCMD-000?logo=steam&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
 ![Minecraft Badge](https://img.shields.io/badge/Minecraft-62B47A?logo=minecraft&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M512P35Z)
+
 ![Visitors Stat](https://komarev.com/ghpvc/?username=Xanthus58)
 [![wakatime](https://wakatime.com/badge/user/0b1b6854-9980-4101-a28a-0b148d8403d6.svg)](https://wakatime.com/@0b1b6854-9980-4101-a28a-0b148d8403d6)
+
 <!---[!template pulled from Ashesh3 https://github.com/Ashesh3/Ashesh3
