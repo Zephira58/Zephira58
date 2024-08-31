@@ -145,7 +145,7 @@ const fileSystem = {
         'save_6 (2).png': 'image_url',
         'save_7 (2).png': 'image_url'
       },
-      'sky-children-of-light': {
+      'sky children of light': {
         '20231125231102_1.jpg': 'image_url',
         '20231125231326_1.jpg': 'image_url',
         '20231125231459_1.jpg': 'image_url',
@@ -155,10 +155,57 @@ const fileSystem = {
         '20231126133635_1.jpg': 'image_url',
         '20231126133723_1.jpg': 'image_url',
         '20231126134631_1.jpg': 'image_url'
+      },
+      'final-fantasy-online': {
+        '2023.05.11-01-summer-sunset.png': 'image_url',
+        '2023.05.11-02-summer-sunset.png': 'image_url',
+        '2023.05.11-03-summer-sunset.png': 'image_url',
+        '2023.05.12-01-newly-weds.png': 'image_url',
+        '2023.05.12-02-newly-weds.png': 'image_url',
+        '2023.05.13-blue-pool.png': 'image_url',
+        'Desktop Screenshot 2023.05.05 - 15.44.07.77.png': 'image_url',
+        'ffxiv_dx11 2023-05-10 12-18-56.png': 'image_url',
+        'ffxiv_dx11 2023-05-10 12-18-59.png': 'image_url',
+        'ffxiv_dx11 2023-05-10 12-22-17.png': 'image_url',
+        'ffxiv_dx11 2023-05-10 12-23-31.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-06-36.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-06-47.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-06-54.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-12-46.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-13-22.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-13-55.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-19-30.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-20-25.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-22-07.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-22-15.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-22-25.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-22-27.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 08-22-39.png': 'image_url',
+        'ffxiv_dx11 2023-05-12 15-49-21.png': 'image_url',
+        'ffxiv_dx11 2023-05-13 16-15-27.png': 'image_url',
+        'ffxiv_dx11 2023-05-13 16-27-10.png': 'image_url',
+        'ffxiv_dx11 2023-05-21 23-15-07.png': 'image_url',
+        'ffxiv_dx11 2023-05-21 23-30-38.png': 'image_url',
+        'ffxiv_dx11 2023-05-21 23-44-13.png': 'image_url',
+        'ffxiv_dx11 EG2023 - 00 - Shadowbringers Gameplay 2023-05-10 11-05-56.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Screenshot 2023.05.05 - 18.22.03.11.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Screenshot 2023.05.06 - 04.13.52.76.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Screenshot 2023.05.06 - 04.14.23.79.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Screenshot 2023.05.07 - 04.58.46.18.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Screenshot 2023.05.08 - 21.21.28.51.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Super-Resolution 2023.05.08 - 07.20.43.04.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Super-Resolution 2023.05.09 - 08.22.06.61.png': 'image_url',
+        'Final Fantasy XIV  A Realm Reborn Super-Resolution 2023.05.09 - 09.47.25.44.png': 'image_url',
+        'fireside-gaze.png': 'image_url',
+        'mossy-goobue.png': 'image_url',
+        'night-ruins.png': 'image_url',
+        'starry-sky.png': 'image_url'
       }
     }
   }
 };
+
+
 
 
 async function view(...args) {
