@@ -41,6 +41,7 @@ var commandMap = {
   'pwd': { action: printWorkingDirectory },
   // Specific social media commands
     'twitter': { action: newTab, args: [socials.twitter] },
+    'kofi': { action: newTab, args: [socials.KoFi] },
     'instagram': { action: newTab, args: [socials.instagram] },
     'github': { action: newTab, args: [socials.github] },
     'email': { action: newTab, args: [socials.email] },
