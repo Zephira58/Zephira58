@@ -33,11 +33,48 @@ var commandMap = {
     loopLines(banner, "", 80);
     remove();
   }},
+  'report': { action: newTab, args: ["https://github.com/Zephira58/Zephira58/issues/new"] },
   // Filesystem commands
   'view': { action: view },
   'cd': { action: changeDirectory },
   'ls': { action: listFiles },
   'pwd': { action: printWorkingDirectory },
+  // Specific social media commands
+    'twitter': { action: newTab, args: [socials.twitter] },
+    'instagram': { action: newTab, args: [socials.instagram] },
+    'github': { action: newTab, args: [socials.github] },
+    'email': { action: newTab, args: [socials.email] },
+    'discord': { action: newTab, args: [socials.discord] },
+    'session': { action: newTab, args: [socials.session] },
+    'tiktok': { action: newTab, args: [socials.tiktok] },
+    'twitch': { action: newTab, args: [socials.twitch] },
+    'steam': { action: newTab, args: [socials.steam] },
+    'spotify': { action: newTab, args: [socials.spotify] },
+    'youtube': { action: newTab, args: [socials.youtube] },
+    // Specific project commands
+    'malacyte': { action: newTab, args: [projects.malacyte] },
+    'purplewood': { action: newTab, args: [projects.purplewood] },
+    'filesorterx': { action: newTab, args: [projects.FileSorterX] },
+    'directorylister': { action: newTab, args: [projects.directory_lister] },
+    'networkpoolcalculatorreforged': { action: newTab, args: [projects.NetworkPoolCalculatorReforged] },
+    'vanillarenewed': { action: newTab, args: [projects.VanillaRenewed] },
+    'cctweakedscripts': { action: newTab, args: [projects.CCTweakedScripts] },
+    'supsafkrunner': { action: newTab, args: [projects.supsafkrunner] },
+    'robuxcalculator': { action: newTab, args: [projects.robux_calculator] },
+    'valorantrandomizer': { action: newTab, args: [projects.ValorantRandomizer] },
+    'guessthenumber': { action: newTab, args: [projects.guess_the_number] },
+    'cliadventuregame': { action: newTab, args: [projects.CLIAdventureGame] },
+    'rockpaperscissorscli': { action: newTab, args: [projects.RockPaperScissorsCLI] },
+    'stillalivereforged': { action: newTab, args: [projects.StillAliveReforged] },
+    'stanlysterminal': { action: newTab, args: [projects.StanlysTerminal] },
+    'affirmationrequester': { action: newTab, args: [projects.AffirmationRequester] },
+    'webhooksender': { action: newTab, args: [projects.webhook_sender] },
+    //award commands
+  'rsa': { action: viewurl, args: ["https://avatars.githubusercontent.com/u/66909997?v=4"]},
+  'activedeveloper': { action: newTab, args: ["https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge?ref=badge"] },
+  //experience
+  'winget': { action: newTab, args: [experience.winget] },
+  'fiverr': { action: newTab, args: [experience.fiverr] },
 };
 
 // Other functions (unchanged)
@@ -232,9 +269,9 @@ const fileSystem = {
         '5.jpg': 'image_url'
       },
       'vrchat': {
-        '1': 'image_url',
-        '2': 'image_url',
-        '3': 'image_url',
+        '1.png': 'image_url',
+        '2.png': 'image_url',
+        '3.png': 'image_url',
         'VRChat_1920x1080_2022-01-11_04-48-24.250.png': 'image_url',
         'VRChat_1920x1080_2022-01-11_04-55-52.002.png': 'image_url',
         'VRChat_1920x1080_2022-01-11_04-56-24.562.png': 'image_url',
@@ -320,6 +357,38 @@ const fileSystem = {
   }
   }
 };
+
+async function viewurl(url) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      console.log(`Error: ${response.status} - Unable to fetch the URL`);
+      return;
+    }
+
+    const contentType = response.headers.get('Content-Type');
+
+    if (contentType.includes('text')) {
+      const textContent = await response.text();
+      console.log(textContent); // Display in the "command line"
+    } else if (contentType.includes('image')) {
+      // Create an image element
+      const img = document.createElement('img');
+      img.src = url;
+      img.style.maxWidth = '100%'; // Ensure it fits within the screen
+      document.body.appendChild(img); // Append the image to the document
+
+      // Track the image for later removal
+      renderedImages.push(img);
+      console.log(`Image viewed: ${url}`);
+    } else {
+      console.log(`Unsupported content type: ${contentType}`);
+    }
+  } catch (error) {
+    console.log(`Error fetching content: ${error.message}`);
+  }
+}
 
 async function view(...args) {
   // If no arguments are provided, use the currentDirectory

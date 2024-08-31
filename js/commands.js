@@ -37,7 +37,7 @@ const socials = {
   
   // Define experience and awards links
   const experience = {
-    winget: "https://github.com/Zephira58?from=2022-12-01&to=2022-12-31&org=microsoft&year_list=1",
+    winget: "https://github.com/microsoft/winget-pkgs",
     fiverr: "https://www.fiverr.com"
   };
   
@@ -157,6 +157,7 @@ const socials = {
     '<span class="command">projects</span>           View coding projects',
     '<span class="command">history</span>            View command history',
     '<span class="command">help</span>               Displays the list you are currently viewing',
+    '<span class="command">report</span>             Report an issue about the website',
     '<span class="command">view</span>               Navigate to a directory with cd and ls then use view to display the contents',
     '<span class="command">cd</span>                 Use navigate and change your current directory',
     '<span class="command">ls</span>                 Displays all content in your current directory',
