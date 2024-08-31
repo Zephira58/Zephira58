@@ -10,7 +10,8 @@ const socials = {
     twitch: "https://www.twitch.tv/zephira5862",
     steam: "https://steamcommunity.com/id/Zephira58/",
     spotify: "https://open.spotify.com/user/pikachu5862",
-    youtube: "https://www.youtube.com/channel/UCpDKtGrvvxGJaVjMjF9l2kg"
+    youtube: "https://www.youtube.com/channel/UCpDKtGrvvxGJaVjMjF9l2kg",
+    KoFi: "https://ko-fi.com/zephira58"
   };
   
   // Define project links
@@ -42,7 +43,6 @@ const socials = {
   };
   
   const awards = {
-    RSA: "", //TODO: Add a link here
     activedeveloper: "https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge",
   };
   
@@ -92,6 +92,7 @@ const socials = {
     `Steam          <a href="${socials.steam}" target="_blank">Zephira58</a>`,
     `Spotify        <a href="${socials.spotify}" target="_blank">pikachu5862</a>`,
     `YouTube        <a href="${socials.youtube}" target="_blank">@zephira58</a>`,
+    `KoFi           <a href="${socials.KoFi}" target="_blank">@zephira58</a>`,
     "<br>"
   ];
   
