@@ -7,14 +7,16 @@ var terminal = document.getElementById("terminal");
 var git = 0;
 var pw = false;
 var commands = [];
+
+// Map specific commands to actions
 var commandMap = {
-  'awards': { action: loopLines, args: [awards, "color2 margin", 80] },
-  'experience': { action: loopLines, args: [experience, "color2 margin", 80] },
+  'awards': { action: loopLines, args: [awardsList, "color2 margin", 80] },
+  'experience': { action: loopLines, args: [experienceList, "color2 margin", 80] },
   'help': { action: loopLines, args: [help, "color2 margin", 80] },
   'whois': { action: loopLines, args: [whois, "color2 margin", 80] },
   'cloud': { action: newTab, args: ["https://cloud.zephira.uk/"] },
   'contact': { action: loopLines, args: [contact, "color2 margin", 80] },
-  'projects': { action: loopLines, args: [projects, "color2 margin", 80] },
+  'projects': { action: loopLines, args: [projectsList, "color2 margin", 80] },
   'history': { action: () => {
     addLine("<br>", "", 0);
     loopLines(commands, "color2", 80);
@@ -30,9 +32,39 @@ var commandMap = {
     before = document.getElementById("before");
     loopLines(banner, "", 80);
   }},
-  // Add additional commands here in a similar way
+  // Specific social media commands
+  'twitter': { action: newTab, args: [socials.twitter] },
+  'instagram': { action: newTab, args: [socials.instagram] },
+  'github': { action: newTab, args: [socials.github] },
+  'email': { action: newTab, args: [socials.email] },
+  'discord': { action: newTab, args: [socials.discord] },
+  'session': { action: newTab, args: [socials.session] },
+  'tiktok': { action: newTab, args: [socials.tiktok] },
+  'twitch': { action: newTab, args: [socials.twitch] },
+  'steam': { action: newTab, args: [socials.steam] },
+  'spotify': { action: newTab, args: [socials.spotify] },
+  'youtube': { action: newTab, args: [socials.youtube] },
+  // Specific project commands
+  'malacyte': { action: newTab, args: [projects.malacyte] },
+  'purplewood': { action: newTab, args: [projects.purplewood] },
+  'filesorterx': { action: newTab, args: [projects.FileSorterX] },
+  'directorylister': { action: newTab, args: [projects.directory_lister] },
+  'networkpoolcalculatorreforged': { action: newTab, args: [projects.NetworkPoolCalculatorReforged] },
+  'vanillarenewed': { action: newTab, args: [projects.VanillaRenewed] },
+  'cctweakedscripts': { action: newTab, args: [projects.CCTweakedScripts] },
+  'supsafkrunner': { action: newTab, args: [projects.supsafkrunner] },
+  'robuxcalculator': { action: newTab, args: [projects.robux_calculator] },
+  'valorantrandomizer': { action: newTab, args: [projects.ValorantRandomizer] },
+  'guessthenumber': { action: newTab, args: [projects.guess_the_number] },
+  'cliadventuregame': { action: newTab, args: [projects.CLIAdventureGame] },
+  'rockpaperscissorscli': { action: newTab, args: [projects.RockPaperScissorsCLI] },
+  'stillalivereforged': { action: newTab, args: [projects.StillAliveReforged] },
+  'stanlysterminal': { action: newTab, args: [projects.StanlysTerminal] },
+  'affirmationrequester': { action: newTab, args: [projects.AffirmationRequester] },
+  'webhooksender': { action: newTab, args: [projects.webhook_sender] },
 };
 
+// Other functions (unchanged)
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
