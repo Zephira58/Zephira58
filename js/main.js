@@ -25,49 +25,19 @@ var commandMap = {
     terminal.innerHTML = '<a id="before"></a>';
     before = document.getElementById("before");
     loopLines(banner, "", 80);
-    remove()
+    remove();
   }},
   'cls': { action: () => {
     terminal.innerHTML = '<a id="before"></a>';
     before = document.getElementById("before");
     loopLines(banner, "", 80);
-    remove()
+    remove();
   }},
-  // Specific social media commands
-  'twitter': { action: newTab, args: [socials.twitter] },
-  'instagram': { action: newTab, args: [socials.instagram] },
-  'github': { action: newTab, args: [socials.github] },
-  'email': { action: newTab, args: [socials.email] },
-  'discord': { action: newTab, args: [socials.discord] },
-  'session': { action: newTab, args: [socials.session] },
-  'tiktok': { action: newTab, args: [socials.tiktok] },
-  'twitch': { action: newTab, args: [socials.twitch] },
-  'steam': { action: newTab, args: [socials.steam] },
-  'spotify': { action: newTab, args: [socials.spotify] },
-  'youtube': { action: newTab, args: [socials.youtube] },
-  // Specific project commands
-  'malacyte': { action: newTab, args: [projects.malacyte] },
-  'purplewood': { action: newTab, args: [projects.purplewood] },
-  'filesorterx': { action: newTab, args: [projects.FileSorterX] },
-  'directorylister': { action: newTab, args: [projects.directory_lister] },
-  'networkpoolcalculatorreforged': { action: newTab, args: [projects.NetworkPoolCalculatorReforged] },
-  'vanillarenewed': { action: newTab, args: [projects.VanillaRenewed] },
-  'cctweakedscripts': { action: newTab, args: [projects.CCTweakedScripts] },
-  'supsafkrunner': { action: newTab, args: [projects.supsafkrunner] },
-  'robuxcalculator': { action: newTab, args: [projects.robux_calculator] },
-  'valorantrandomizer': { action: newTab, args: [projects.ValorantRandomizer] },
-  'guessthenumber': { action: newTab, args: [projects.guess_the_number] },
-  'cliadventuregame': { action: newTab, args: [projects.CLIAdventureGame] },
-  'rockpaperscissorscli': { action: newTab, args: [projects.RockPaperScissorsCLI] },
-  'stillalivereforged': { action: newTab, args: [projects.StillAliveReforged] },
-  'stanlysterminal': { action: newTab, args: [projects.StanlysTerminal] },
-  'affirmationrequester': { action: newTab, args: [projects.AffirmationRequester] },
-  'webhooksender': { action: newTab, args: [projects.webhook_sender] },
-  // Specific awards commands
-  'activedeveloper': { action: newTab, args: [awards.activedeveloper] },
-  'rsa': { action: newTab, args: [awards.rsa] },
-  //Filesystem commands
-  'view': { action: view, args: ["https://avatars.githubusercontent.com/u/66909997?v=4"] },
+  // Filesystem commands
+  'view': { action: view },
+  'cd': { action: changeDirectory },
+  'ls': { action: listFiles },
+  'pwd': { action: printWorkingDirectory },
 };
 
 // Other functions (unchanged)
@@ -117,18 +87,16 @@ function enterKey(e) {
       command.innerHTML = textarea.value;
     }
   }
-  for (let i = images.length - 1; i >= 0; i--) {
-    deleteImage(images[i]);
-  }
 }
 
 function commander(cmd) {
-  const commandAction = commandMap[cmd.toLowerCase()];
+  const [cmdName, ...args] = cmd.split(' ');
+  const commandAction = commandMap[cmdName];
   if (commandAction) {
     if (Array.isArray(commandAction.args)) {
       commandAction.action(...commandAction.args);
     } else {
-      commandAction.action(commandAction.args);
+      commandAction.action(...args);
     }
   } else {
     addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>.</span>", "error", 100);
@@ -159,53 +127,103 @@ function loopLines(name, style, time) {
   });
 }
 
-// Array to keep track of rendered images
+// Filesystem subsection
+
 let renderedImages = [];
-// Function to handle the "view" command
-async function view(url) {
-  try {
-    const response = await fetch(url);
+let currentDirectory = ''; // Start at the root
 
-    if (!response.ok) {
-      console.log(`Error: ${response.status} - Unable to fetch the URL`);
-      return;
+// Update the fileSystem structure to match your GitHub repo
+const fileSystem = {
+  'img': {
+    'media': {
+      'elite': {
+      'save_0 (1).png': 'image_url',
+      'save_1 (2).png': 'image_url',
+      'save_2 (2).png': 'image_url',
+      'save_3 (2).png': 'image_url',
+      'save_4 (2).png': 'image_url',
+      'save_5 (2).png': 'image_url',
+      'save_6 (2).png': 'image_url',
+      'save_7 (2).png': 'image_url'
+    },}
+    // Other directories can be added here
+  }
+};
+
+async function view(...args) {
+  const path = args.join(' ').trim();
+  const fullPath = path.startsWith('~/') ? path.slice(2) : path;
+
+  if (fullPath.includes('.')) { // Assume file if there's a dot in the path
+    const url = `https://raw.githubusercontent.com/Zephira58/Zephira58/dev${fullPath}`;
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        console.log(`Error: ${response.status} - Unable to fetch the URL`);
+        return;
+      }
+      const contentType = response.headers.get('Content-Type');
+      if (contentType.includes('image')) {
+        const img = document.createElement('img');
+        img.src = url;
+        img.style.maxWidth = '100%';
+        document.body.appendChild(img);
+        renderedImages.push(img);
+        console.log(`Image viewed: ${url}`);
+      } else {
+        console.log(`Unsupported content type: ${contentType}`);
+      }
+    } catch (error) {
+      console.log(`Error fetching content: ${error.message}`);
     }
-
-    const contentType = response.headers.get('Content-Type');
-
-    if (contentType.includes('text')) {
-      const textContent = await response.text();
-      console.log(textContent); // Display in the "command line"
-    } else if (contentType.includes('image')) {
-      // Create an image element
-      const img = document.createElement('img');
-      img.src = url;
-      img.style.maxWidth = '100%'; // Ensure it fits within the screen
-      document.body.appendChild(img); // Append the image to the document
-
-      // Track the image for later removal
-      renderedImages.push(img);
-      console.log(`Image viewed: ${url}`);
-    } else {
-      console.log(`Unsupported content type: ${contentType}`);
-    }
-  } catch (error) {
-    console.log(`Error fetching content: ${error.message}`);
+  } else {
+    const images = getNestedDirectory(fullPath) || {};
+    Object.keys(images).forEach(img => {
+      const url = `https://raw.githubusercontent.com/Zephira58/Zephira58/dev/${fullPath}/${img}`;
+      const imgElem = document.createElement('img');
+      imgElem.src = url;
+      imgElem.style.maxWidth = '100%';
+      document.body.appendChild(imgElem);
+      renderedImages.push(imgElem);
+    });
+    console.log(`Images in ${fullPath}: ${Object.keys(images).join(', ')}`);
   }
 }
 
-// Function to remove all rendered images
+function getNestedDirectory(path) {
+  return path.split('/').reduce((dir, part) => dir ? dir[part] : null, fileSystem);
+}
+
+function changeDirectory(newDir) {
+  const newDirPath = newDir.startsWith('~/') ? newDir.slice(2) : newDir;
+  if (getNestedDirectory(newDirPath)) {
+    currentDirectory = newDirPath;
+    addLine(`Changed directory to ${newDir}`, "info", 100);
+  } else {
+    addLine(`Directory ${newDir} not found`, "error", 100);
+  }
+}
+
+function listFiles() {
+  const files = getNestedDirectory(currentDirectory) || {};
+  const directories = Object.keys(files).filter(key => typeof files[key] === 'object');
+  const filesList = Object.keys(files).filter(key => typeof files[key] !== 'object');
+  addLine(`Directories in ${currentDirectory}: ${directories.join(', ')}`, "info", 100);
+  addLine(`Files in ${currentDirectory}: ${filesList.join(', ')}`, "info", 100);
+}
+
 function remove() {
   if (renderedImages.length === 0) {
     console.log('No images to remove.');
     return;
   }
-
-  // Iterate over the array and remove each image from the DOM
   while (renderedImages.length > 0) {
     const image = renderedImages.pop();
     image.remove();
   }
-
   console.log('All viewed images removed.');
+}
+
+function printWorkingDirectory() {
+  addLine(`Current directory: ${currentDirectory}`, "info", 100);
 }
