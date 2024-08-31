@@ -157,7 +157,9 @@ const socials = {
     '<span class="command">projects</span>           View coding projects',
     '<span class="command">history</span>            View command history',
     '<span class="command">help</span>               Displays the list you are currently viewing',
-    '<span class="command">view [directory]</span>   Displays all images from a directory',
+    '<span class="command">view</span>               Navigate to a directory with cd and ls then use view to display the contents',
+    '<span class="command">cd</span>                 Use navigate and change your current directory',
+    '<span class="command">ls</span>                 Displays all content in your current directory',
     '<span class="command">clear</span>              Clears the terminal',
     "<br>",
   ];

@@ -130,10 +130,12 @@ function loopLines(name, style, time) {
 // Filesystem subsection
 
 let renderedImages = [];
-let currentDirectory = 'img'; // Start at the root
+let currentDirectory = ''; // Start at the root
 
 const fileSystem = {
-  'img': {
+  
+  "": {
+    'img': {
     'media': {
       'elite': {
         'save_0 (1).png': 'image_url',
@@ -223,16 +225,16 @@ const fileSystem = {
         '16-11-2018_15-22-02.png': 'image_url',
         '16-11-2018_15-23-10.png': 'image_url',
         '16-11-2018_15-24-42.png': 'image_url',
-        '2019-09-13 07.46.10 1.jpg': 'image_url',
-        '2019-09-13 07.46.59 1.jpg': 'image_url',
-        '2019-09-13 07.48.03 1.jpg': 'image_url',
-        '2019-09-13 07.48.50 1.jpg': 'image_url',
-        '2019-09-13 07.49.39 1.jpg': 'image_url'
+        '1.jpeg': 'image_url',
+        '2.jpg': 'image_url',
+        '3.jpg': 'image_url',
+        '4.jpg': 'image_url',
+        '5.jpg': 'image_url'
       },
       'vrchat': {
-        'VRChat_1920x1080_2022-01-05_20-06-09.721 - Copy.png': 'image_url',
-        'VRChat_1920x1080_2022-01-08_16-37-50.404 - Copy.png': 'image_url',
-        'VRChat_1920x1080_2022-01-09_19-53-38.383 - Copy.png': 'image_url',
+        '1': 'image_url',
+        '2': 'image_url',
+        '3': 'image_url',
         'VRChat_1920x1080_2022-01-11_04-48-24.250.png': 'image_url',
         'VRChat_1920x1080_2022-01-11_04-55-52.002.png': 'image_url',
         'VRChat_1920x1080_2022-01-11_04-56-24.562.png': 'image_url',
@@ -313,7 +315,9 @@ const fileSystem = {
         'save_5 (1).png': 'image_url',
         'save_6 (1).png': 'image_url',
         'save_7 (1).png': 'image_url'
+      }
     }
+  }
   }
 };
 
@@ -323,7 +327,7 @@ async function view(...args) {
   const fullPath = path.startsWith('~/') ? path.slice(2) : path;
 
   if (fullPath.includes('.')) { // Assume file if there's a dot in the path
-    const url = `https://raw.githubusercontent.com/Zephira58/Zephira58/dev${fullPath}`;
+    const url = `https://raw.githubusercontent.com/Zephira58/Zephira58/dev${fullPath}`.trim();
     try {
       const response = await fetch(url);
       if (!response.ok) {
@@ -347,7 +351,7 @@ async function view(...args) {
   } else {
     const images = getNestedDirectory(fullPath) || {};
     Object.keys(images).forEach(img => {
-      const url = `https://raw.githubusercontent.com/Zephira58/Zephira58/dev/${fullPath}/${img}`;
+      const url = `https://raw.githubusercontent.com/Zephira58/Zephira58/dev/${fullPath}/${img}`.trim();
       const imgElem = document.createElement('img');
       imgElem.src = url;
       imgElem.style.maxWidth = '100%';
@@ -372,7 +376,7 @@ function changeDirectory(newDir) {
     const pathParts = currentDirectory.split('/').filter(Boolean);
     if (pathParts.length > 0) {
       pathParts.pop();
-      currentDirectory = '' + pathParts.join('/');
+      currentDirectory = '/' + pathParts.join('/');
     } else {
       currentDirectory = '/'; // Stay at root
     }
