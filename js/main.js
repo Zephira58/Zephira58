@@ -132,23 +132,34 @@ function loopLines(name, style, time) {
 let renderedImages = [];
 let currentDirectory = 'img'; // Start at the root
 
-// Update the fileSystem structure to match your GitHub repo
 const fileSystem = {
   'img': {
     'media': {
       'elite': {
-      'save_0 (1).png': 'image_url',
-      'save_1 (2).png': 'image_url',
-      'save_2 (2).png': 'image_url',
-      'save_3 (2).png': 'image_url',
-      'save_4 (2).png': 'image_url',
-      'save_5 (2).png': 'image_url',
-      'save_6 (2).png': 'image_url',
-      'save_7 (2).png': 'image_url'
-    },}
-    // Other directories can be added here
+        'save_0 (1).png': 'image_url',
+        'save_1 (2).png': 'image_url',
+        'save_2 (2).png': 'image_url',
+        'save_3 (2).png': 'image_url',
+        'save_4 (2).png': 'image_url',
+        'save_5 (2).png': 'image_url',
+        'save_6 (2).png': 'image_url',
+        'save_7 (2).png': 'image_url'
+      },
+      'sky-children-of-light': {
+        '20231125231102_1.jpg': 'image_url',
+        '20231125231326_1.jpg': 'image_url',
+        '20231125231459_1.jpg': 'image_url',
+        '20231125231836_1.jpg': 'image_url',
+        '20231125231912_1.jpg': 'image_url',
+        '20231125231916_1.jpg': 'image_url',
+        '20231126133635_1.jpg': 'image_url',
+        '20231126133723_1.jpg': 'image_url',
+        '20231126134631_1.jpg': 'image_url'
+      }
+    }
   }
 };
+
 
 async function view(...args) {
   // If no arguments are provided, use the currentDirectory
