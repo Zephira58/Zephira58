@@ -130,7 +130,7 @@ function loopLines(name, style, time) {
 // Filesystem subsection
 
 let renderedImages = [];
-let currentDirectory = ''; // Start at the root
+let currentDirectory = 'img'; // Start at the root
 
 // Update the fileSystem structure to match your GitHub repo
 const fileSystem = {
@@ -151,7 +151,8 @@ const fileSystem = {
 };
 
 async function view(...args) {
-  const path = args.join(' ').trim();
+  // If no arguments are provided, use the currentDirectory
+  const path = args.length > 0 ? args.join(' ').trim() : `${currentDirectory}`; 
   const fullPath = path.startsWith('~/') ? path.slice(2) : path;
 
   if (fullPath.includes('.')) { // Assume file if there's a dot in the path
@@ -190,17 +191,34 @@ async function view(...args) {
   }
 }
 
+
 function getNestedDirectory(path) {
   return path.split('/').reduce((dir, part) => dir ? dir[part] : null, fileSystem);
 }
 
 function changeDirectory(newDir) {
+  remove();
   const newDirPath = newDir.startsWith('~/') ? newDir.slice(2) : newDir;
-  if (getNestedDirectory(newDirPath)) {
-    currentDirectory = newDirPath;
-    addLine(`Changed directory to ${newDir}`, "info", 100);
+  
+  if (newDirPath === '..') {
+    // Move up one level
+    const pathParts = currentDirectory.split('/').filter(Boolean);
+    if (pathParts.length > 0) {
+      pathParts.pop();
+      currentDirectory = '' + pathParts.join('/');
+    } else {
+      currentDirectory = '/'; // Stay at root
+    }
+    addLine(`Moved up to ${currentDirectory}`, "info", 100);
   } else {
-    addLine(`Directory ${newDir} not found`, "error", 100);
+    // Handle subdirectory navigation
+    const targetPath = currentDirectory + '/' + newDirPath;
+    if (getNestedDirectory(targetPath)) {
+      currentDirectory = targetPath;
+      addLine(`Changed directory to ${currentDirectory}`, "info", 100);
+    } else {
+      addLine(`Directory ${newDirPath} not found`, "error", 100);
+    }
   }
 }
 
