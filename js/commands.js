@@ -42,9 +42,8 @@ const socials = {
   };
   
   const awards = {
-    AHCCHM304: "https://training.gov.au/Training/Details/AHCCHM304",
-    AHCCHM307: "https://training.gov.au/Training/Details/AHCCHM307",
-    activedeveloper: "https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge"
+    RSA: "", //TODO: Add a link here
+    activedeveloper: "https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge",
   };
   
   // Define text content for various sections
@@ -150,15 +149,16 @@ const socials = {
   
   const help = [
     "<br>",
-    '<span class="command">whois</span>          Who is Zephira?',
-    '<span class="command">cloud</span>          Access my cloud storage service, if you have an account',
-    '<span class="command">experience</span>     View my experience',
-    '<span class="command">awards</span>         View my awards/certifications',
-    '<span class="command">contact</span>        Display social networks',
-    '<span class="command">projects</span>       View coding projects',
-    '<span class="command">history</span>        View command history',
-    '<span class="command">help</span>           Displays the list you are currently viewing',
-    '<span class="command">clear</span>          Clears the terminal',
+    '<span class="command">whois</span>              Who is Zephira?',
+    '<span class="command">cloud</span>              Access my cloud storage service, if you have an account',
+    '<span class="command">experience</span>         View my experience',
+    '<span class="command">awards</span>             View my awards/certifications',
+    '<span class="command">contact</span>            Display social networks',
+    '<span class="command">projects</span>           View coding projects',
+    '<span class="command">history</span>            View command history',
+    '<span class="command">help</span>               Displays the list you are currently viewing',
+    '<span class="command">view [directory]</span>   Displays all images from a directory',
+    '<span class="command">clear</span>              Clears the terminal',
     "<br>",
   ];
   

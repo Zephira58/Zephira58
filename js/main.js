@@ -8,7 +8,6 @@ var git = 0;
 var pw = false;
 var commands = [];
 
-// Map specific commands to actions
 var commandMap = {
   'awards': { action: loopLines, args: [awardsList, "color2 margin", 80] },
   'experience': { action: loopLines, args: [experienceList, "color2 margin", 80] },
@@ -26,11 +25,13 @@ var commandMap = {
     terminal.innerHTML = '<a id="before"></a>';
     before = document.getElementById("before");
     loopLines(banner, "", 80);
+    remove()
   }},
   'cls': { action: () => {
     terminal.innerHTML = '<a id="before"></a>';
     before = document.getElementById("before");
     loopLines(banner, "", 80);
+    remove()
   }},
   // Specific social media commands
   'twitter': { action: newTab, args: [socials.twitter] },
@@ -62,6 +63,11 @@ var commandMap = {
   'stanlysterminal': { action: newTab, args: [projects.StanlysTerminal] },
   'affirmationrequester': { action: newTab, args: [projects.AffirmationRequester] },
   'webhooksender': { action: newTab, args: [projects.webhook_sender] },
+  // Specific awards commands
+  'activedeveloper': { action: newTab, args: [awards.activedeveloper] },
+  'rsa': { action: newTab, args: [awards.rsa] },
+  //Filesystem commands
+  'view': { action: view, args: ["https://avatars.githubusercontent.com/u/66909997?v=4"] },
 };
 
 // Other functions (unchanged)
@@ -111,6 +117,9 @@ function enterKey(e) {
       command.innerHTML = textarea.value;
     }
   }
+  for (let i = images.length - 1; i >= 0; i--) {
+    deleteImage(images[i]);
+  }
 }
 
 function commander(cmd) {
@@ -148,4 +157,55 @@ function loopLines(name, style, time) {
   name.forEach(function(item, index) {
     addLine(item, style, index * time);
   });
+}
+
+// Array to keep track of rendered images
+let renderedImages = [];
+// Function to handle the "view" command
+async function view(url) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      console.log(`Error: ${response.status} - Unable to fetch the URL`);
+      return;
+    }
+
+    const contentType = response.headers.get('Content-Type');
+
+    if (contentType.includes('text')) {
+      const textContent = await response.text();
+      console.log(textContent); // Display in the "command line"
+    } else if (contentType.includes('image')) {
+      // Create an image element
+      const img = document.createElement('img');
+      img.src = url;
+      img.style.maxWidth = '100%'; // Ensure it fits within the screen
+      document.body.appendChild(img); // Append the image to the document
+
+      // Track the image for later removal
+      renderedImages.push(img);
+      console.log(`Image viewed: ${url}`);
+    } else {
+      console.log(`Unsupported content type: ${contentType}`);
+    }
+  } catch (error) {
+    console.log(`Error fetching content: ${error.message}`);
+  }
+}
+
+// Function to remove all rendered images
+function remove() {
+  if (renderedImages.length === 0) {
+    console.log('No images to remove.');
+    return;
+  }
+
+  // Iterate over the array and remove each image from the DOM
+  while (renderedImages.length > 0) {
+    const image = renderedImages.pop();
+    image.remove();
+  }
+
+  console.log('All viewed images removed.');
 }
