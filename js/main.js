@@ -70,7 +70,7 @@ var commandMap = {
     'affirmationrequester': { action: newTab, args: [projects.AffirmationRequester] },
     'webhooksender': { action: newTab, args: [projects.webhook_sender] },
     //award commands
-  'rsa': { action: viewurl, args: ["https://avatars.githubusercontent.com/u/66909997?v=4"]},
+  'rsa': { action: viewurl, args: ["https://raw.githubusercontent.com/Zephira58/Zephira58/dev/img/certs/rsa.png"]},
   'activedeveloper': { action: newTab, args: ["https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge?ref=badge"] },
   //experience
   'winget': { action: newTab, args: [experience.winget] },
@@ -167,7 +167,7 @@ function loopLines(name, style, time) {
 // Filesystem subsection
 
 let renderedImages = [];
-let currentDirectory = ''; // Start at the root
+let currentDirectory = 'img/media'; // will change when blogs are added
 
 const fileSystem = {
   
