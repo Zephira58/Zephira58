@@ -202,7 +202,6 @@ const fileSystem = {
         '2023.05.12-01-newly-weds.png': 'image_url',
         '2023.05.12-02-newly-weds.png': 'image_url',
         '2023.05.13-blue-pool.png': 'image_url',
-        'Desktop Screenshot 2023.05.05 - 15.44.07.77.png': 'image_url',
         'ffxiv_dx112023-05-1012-18-56.png': 'image_url',
         'ffxiv_dx112023-05-1012-18-59.png': 'image_url',
         'ffxiv_dx112023-05-1012-22-17.png': 'image_url',
@@ -227,7 +226,6 @@ const fileSystem = {
         'ffxiv_dx112023-05-2123-30-38.png': 'image_url',
         'ffxiv_dx112023-05-2123-44-13.png': 'image_url',
         'lighthouse.png': 'image_url',
-        'aura.png': 'image_url',
         'boat.png': 'image_url',
         'bow.png': 'image_url',
         'bow2.png': 'image_url',
@@ -345,13 +343,13 @@ const fileSystem = {
         '28-10-2018_15-45-03.png': 'image_url',
         '28-10-2018_16-51-24.png': 'image_url',
         '28-10-2018_17-00-53.png': 'image_url',
-        'save_1 (1).png': 'image_url',
-        'save_2 (1).png': 'image_url',
-        'save_3 (1).png': 'image_url',
-        'save_4 (1).png': 'image_url',
-        'save_5 (1).png': 'image_url',
-        'save_6 (1).png': 'image_url',
-        'save_7 (1).png': 'image_url'
+        'save_1.png': 'image_url',
+        'save_2.png': 'image_url',
+        'save_3.png': 'image_url',
+        'save_4.png': 'image_url',
+        'save_5.png': 'image_url',
+        'save_6.png': 'image_url',
+        'save_7.png': 'image_url'
       }
     }
   }
