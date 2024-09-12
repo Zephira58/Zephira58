@@ -25,9 +25,9 @@ Currently self teaching with online resources 👨‍🎓
 </div>
 <p align="center">
   <a href="https://github.com/Zephira58">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zephira58&show_icons=true&theme=dracula"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zephira58&show_icons=true&theme=moltack"/>
     <br>
-    <img height="500em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Zephira58&theme=dracula&layout=compact"/>
+    <img height="500em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Zephira58&theme=moltack&layout=compact"/>
   </a>
 </p>
 </details>
