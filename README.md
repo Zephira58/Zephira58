@@ -39,32 +39,32 @@ Technologies that I've been learning and picked up along my programming journey.
 #### 🌐  Languages : <br />
 
 <!--- All badges gotten from https://developstorm.github.io/simple-badges/ --->
-![Rust Badge](https://img.shields.io/badge/Rust-000?logo=rust&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Markdown Badge](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
+![Rust Badge](https://img.shields.io/badge/Rust-000?logo=rust&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Markdown Badge](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
 
 #### 🛠 OS, IDE & Tools: <br />
 
-![Arch Linux Badge](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=archlinux&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Git Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![VirtualBox Badge](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![SQLite Badge](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Cloudflare Badge](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Oracle Badge](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
+![Arch Linux Badge](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=archlinux&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Git Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![VirtualBox Badge](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![SQLite Badge](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Cloudflare Badge](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Oracle Badge](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
 
 #### 📦 Homelab Experience: <br />
 
-![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![UbuntuServer Badge](https://img.shields.io/badge/UbuntuServer-E95420?logo=ubuntu&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![TrueNAS Badge](https://img.shields.io/badge/TrueNAS-0095D5?logo=truenas&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Nextcloud](https://img.shields.io/badge/Nextcloud-3693F3?logo=icloud&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Plex Badge](https://img.shields.io/badge/Plex-EBAF00?logo=plex&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Matrix Badge](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![SteamCMD Badge](https://img.shields.io/badge/SteamCMD-000?logo=steam&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
-![Minecraft Badge](https://img.shields.io/badge/Minecraft-62B47A?logo=minecraft&logoColor=BD92F9&style=for-the-badge&labelColor=282A36&color=1C1E26)
+![Docker Badge](https://img.shields.io/badge/Docker-120d0e?logo=docker&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![UbuntuServer Badge](https://img.shields.io/badge/UbuntuServer-E95420?logo=ubuntu&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![TrueNAS Badge](https://img.shields.io/badge/TrueNAS-0095D5?logo=truenas&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Nextcloud](https://img.shields.io/badge/Nextcloud-3693F3?logo=icloud&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Plex Badge](https://img.shields.io/badge/Plex-EBAF00?logo=plex&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Matrix Badge](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![SteamCMD Badge](https://img.shields.io/badge/SteamCMD-000?logo=steam&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
+![Minecraft Badge](https://img.shields.io/badge/Minecraft-62B47A?logo=minecraft&logoColor=000000&style=for-the-badge&labelColor=9b757d&color=5f474d)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M512P35Z)
 
