@@ -4,6 +4,8 @@
   </h2>
 </div>
 
+<img src="https://github.com/user-attachments/assets/8999f47e-917c-4457-95ab-029065033265" width="25%" align="right" />
+
 ### 👨🏻‍💻 &nbsp;[About Me](https://zephira.uk/)
 
 I'm a Computer Enthusiast 👨‍💻
