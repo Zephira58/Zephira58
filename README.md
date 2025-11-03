@@ -72,5 +72,3 @@ Technologies that I've been learning and picked up along my programming journey.
 
 ![Visitors Stat](https://komarev.com/ghpvc/?username=Xanthus58)
 [![wakatime](https://wakatime.com/badge/user/0b1b6854-9980-4101-a28a-0b148d8403d6.svg)](https://wakatime.com/@0b1b6854-9980-4101-a28a-0b148d8403d6)
-
-<!---[!template pulled from Ashesh3 https://github.com/Ashesh3/Ashesh3
